@@ -1,16 +1,21 @@
 from groq import Groq
+from dotenv import load_dotenv, find_dotenv
 from tools import available_tools
 import tools
+import os
 import json
+
 # Creating the API Client
+load_dotenv(find_dotenv())
+api_key = os.environ.get("GROQ_API_KEY")
 client = Groq(
-    api_key = 'your/api/key/here'
+    api_key = api_key
 )
 
 messages = [
     {
       "role": "system",
-      "content": "You are an expert recommender. Recommend the best college to students based on the details they provide. A lower closing rank than specified is required for entry into that college"
+      "content": "You are an expert recommender. Recommend the best college to students based on the details they provide. "
     },
     {
       "role": "user",
