@@ -5,6 +5,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from bson.objectid import ObjectId
 import json
+from duckduckgo_search import DDGS
 
 load_dotenv(find_dotenv())
 
@@ -40,7 +41,32 @@ available_tools = [{
       "required": ["rank", "category", "gender"]
     }
   }
-}]
+},
+    {
+        "type": "function",
+        "function": {
+            "name": "web_search",
+            "description": "Search the web for information about colleges, rankings, admissions, and educational institutions to help students find the best college options",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query to find college-related information. Can include college names, ranking criteria, admission requirements, course offerings, location preferences, or comparison terms",
+                        "examples": [
+                            "best colleges for computer science engineering India",
+                            "affordable colleges mechanical engineering",
+                            "IIT vs NIT placement statistics 2024",
+                            "IIT Bombay Placement Stats",
+                            "IIT Bombay NIRF Ranking"
+                        ]
+                    }
+                },
+                "required": ["query"]
+            }
+        }
+    }
+]
 
 
 # Creating the tools which can be accessed
@@ -57,5 +83,19 @@ def find_colleges_in_rank_range(rank, category, gender):
     }
     colleges = list(collection.find(query, {"_id" : 0}))
     return json.dumps(colleges)
+
+
+def web_search(query):
+    response = DDGS().text(query, max_results= 5)
+    response = [result.get("body") for result in response]
+    response = "\nNext Result: ".join(response)
+    return response
+
+if __name__ == "__main__":
+    result = DDGS().text("IIT Gandhinagar placement stats", max_results= 5)
+    print(result[1])
+
+
+
 
 
