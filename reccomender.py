@@ -15,7 +15,7 @@ client = Groq(
 messages = [
     {
       "role": "system",
-      "content": "You are an expert recommender. Recommend the best college to students based on the details they provide. "
+      "content": "You are an expert recommender. Recommend the best college to students based on the details they provide. If you are unsure about any response USE THE TOOLS provided to answer the question to the best of your abilities"
     },
     {
       "role": "user",
@@ -23,36 +23,50 @@ messages = [
     }
   ]
 
+def create_chat_completion(messages):
+    chat = client.chat.completions.create(
+        messages = messages,
+        model = 'meta-llama/llama-4-scout-17b-16e-instruct',
+        tools = available_tools,
+        tool_choice= 'auto',
+        max_completion_tokens= 128
+    )
 
-chat = client.chat.completions.create(
-    messages = messages,
-    model = 'meta-llama/llama-4-scout-17b-16e-instruct',
-    tools = available_tools,
-    tool_choice= 'auto',
-    max_completion_tokens= 128
-)
+    response = chat.choices[0].message
+    tool_info = response.tool_calls
+    print(tool_info)
 
-response = chat.choices[0].message
-tool_info = response.tool_calls
-print(tool_info)
+    if tool_info:
+        for tool_call in tool_info:
+            name = tool_call.function.name
+            arguments = json.loads(tool_call.function.arguments)
+            f = getattr(tools, name)
+            output = f(**arguments)
 
-for tool_call in tool_info:
-    name = tool_call.function.name
-    arguments = json.loads(tool_call.function.arguments)
-    f = getattr(tools, name)
-    output = f(**arguments)
+            messages.append(
+                        {
+                            "tool_call_id": tool_call.id,
+                            "role": "tool", # Indicates this message is from tool use
+                            "name": name,
+                            "content": output,
+                        })
 
-    messages.append(
-                {
-                    "tool_call_id": tool_call.id,
-                    "role": "tool", # Indicates this message is from tool use
-                    "name": name,
-                    "content": output,
-                })
+        second_response = client.chat.completions.create(
+                model='meta-llama/llama-4-scout-17b-16e-instruct',
+                messages=messages
+            )
+        return second_response.choices[0].message.content
 
-    second_response = client.chat.completions.create(
-            model='meta-llama/llama-4-scout-17b-16e-instruct',
-            messages=messages
-        )
-    print(second_response.choices[0].message)
-
+if __name__ == "__main__":
+    while True:
+        output = create_chat_completion(messages)
+        print(output)
+        messages.append({
+            "role": "assistant",
+            "content": output
+        })
+        prompt = input("YOU : ")
+        messages.append({
+            "role": "user",
+            "content": prompt
+        })
