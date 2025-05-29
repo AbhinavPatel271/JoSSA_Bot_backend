@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from agent_tools.josaa_rag_tool import rag_tool_schema , rag_pipeline
 from agent_tools.search_tool import web_search_tool_schema , web_search
+from agent_tools.ORCR_finder_rank import find_colleges_in_rank_range, college_rank_range_schema
 from groqAPIcall import get_response
 from typing import List, Dict
 import json
@@ -43,7 +44,7 @@ def format_messages_param(chat_history: List[Dict[str, str]], user_question: str
 
 
 
-async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
+async def chat_agent(user_question: str , chat_history: list[dict] = None) -> dict:
     try:
         
         # user chat_history for assistant and user role messages 
@@ -51,11 +52,12 @@ async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
 
 
         response = await get_response(
-            "llama3-70b-8192",
+            "meta-llama/llama-4-scout-17b-16e-instruct",
             messages,
             tools = [
-                rag_tool_schema , 
-                web_search_tool_schema
+                rag_tool_schema,
+                web_search_tool_schema,
+                college_rank_range_schema
             ],
 
         )
@@ -128,3 +130,6 @@ async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
             "source": "agent",
             "error": f"Unexpected error in chat_agent: {str(e)}"
         }
+
+if __name__ == "__main__":
+    chat_agent()
