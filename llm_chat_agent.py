@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from agent_tools.josaa_rag_tool import rag_tool_schema , rag_pipeline
+from agent_tools.search_tool import web_search_tool_schema , web_search
 from groqAPIcall import get_response
 from typing import List, Dict
 import json
@@ -53,7 +54,8 @@ async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
             "llama3-70b-8192",
             messages,
             tools = [
-                rag_tool_schema
+                rag_tool_schema , 
+                web_search_tool_schema
             ],
 
         )
@@ -88,6 +90,30 @@ async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
                             "source": "josaa_rag_tool",
                             "error": f"Error during tool execution: {str(tool_exec_error)}"
                         }
+                elif tool_call.function.name == "web_search":
+                    try:
+                        args = json.loads(tool_call.function.arguments)
+                        result = web_search(**args)
+                        print("web_search tool used")
+                        if result["success"]:
+                            return {
+                                "success": True,
+                                "source": "web_search_tool",
+                                "answer": result["answer"]   
+                            }
+                        else:
+                            return {
+                                "success": False,
+                                "source": "web_search_tool",
+                                "error": result["error"]
+                            }
+                    except Exception as tool_exec_error:
+                        return {
+                            "success": False,
+                            "source": "web_search_tool",
+                            "error": f"Error during tool execution: {str(tool_exec_error)}"
+                        }
+
         else:
              
             return {
