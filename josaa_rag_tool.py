@@ -1,7 +1,7 @@
 import os
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
+from langchain_groq import ChatGroq
 from langchain_google_genai import GoogleGenerativeAIEmbeddings as embed
-from langchain.chat_models import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.schema import Document
@@ -12,7 +12,7 @@ import fitz
 from dotenv import load_dotenv
 load_dotenv()
 
-pdf_path = "path to local jossa pdf"
+pdf_path = "/Users/abhinavpatel/JoshBot/JoSSA_Bot/docs/JOSSA_2025-26_rules.pdf"
 
 def parse_pdf_to_documents(pdf_path):
     doc = fitz.open(pdf_path)
@@ -21,8 +21,8 @@ def parse_pdf_to_documents(pdf_path):
         full_text += page.get_text()
 
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200
+        chunk_size = 750,
+        chunk_overlap = 150
     )
     texts = splitter.split_text(full_text)
 
@@ -30,8 +30,9 @@ def parse_pdf_to_documents(pdf_path):
 
 def load_or_create_vectorstore(documents, embeddings , store_path="faiss_index_store"):
     if os.path.exists(store_path) and os.path.exists(os.path.join(store_path, "index.faiss")):
-        return FAISS.load_local(store_path, embeddings)
-    
+        print("Using stored embeddings")
+        return FAISS.load_local(store_path, embeddings , allow_dangerous_deserialization=True)
+    print("Generating new embeddings")
     vectorstore = FAISS.from_documents(documents, embeddings)
     vectorstore.save_local(store_path)
     return vectorstore
@@ -49,8 +50,8 @@ def rag_pipeline(question: str) -> dict:
 
     
        llm = ChatGroq(
-        groq_api_key=os.getenv("Groq_API_KEY_JOSAA_RAG"),
-        model_name="llama3-8b-8192"
+        groq_api_key=os.getenv("Groq_API_KEY_JOSSA_RAG"),
+        model_name="llama3-70b-8192"
     )
 
     
@@ -82,7 +83,7 @@ Answer:"""
         chain_type_kwargs={"prompt": prompt}
     )
 
-       answer = qa({"query": question})
+       answer = qa.invoke({"query": question})
        return {
             "success": True,
             "answer": answer,

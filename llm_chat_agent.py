@@ -1,13 +1,14 @@
 from dotenv import load_dotenv
-from JoSSA_Bot.josaa_rag_tool import rag_pipeline   
-from JoSSA_Bot.groqAPIcall import get_response
+from josaa_rag_tool import rag_pipeline   
+from groqAPIcall import get_response
+import json
 
 load_dotenv()
 
-def chat_agent(user_question: str) -> dict:
+async def chat_agent(user_question: str , chat_history: dict = None) -> dict:
     try:
         
-
+        # user chat_history for assistant and user role messages 
         messages = [
             {
                 "role": "system",
@@ -33,11 +34,6 @@ def chat_agent(user_question: str) -> dict:
                         "question": {
                             "type": "string",
                             "description": "The user's query related to JOSAA"
-                        },
-                        "system_prompt": {
-                            "type": "string",
-                            "description": "Custom system prompt for the tool execution",
-                            "default": "You are a helpful assistant that answers based on official JOSAA documents."
                         }
                     },
                     "required": ["question"]
@@ -45,7 +41,7 @@ def chat_agent(user_question: str) -> dict:
             }
         }
 
-        response = get_response(
+        response = await get_response(
             "llama3-8b-8192",
             messages,
             tools = [
@@ -55,19 +51,22 @@ def chat_agent(user_question: str) -> dict:
         )
          
         msg = response.choices[0].message
+        print("tool_calls:", msg.tool_calls)
+
 
          
         if msg.tool_calls:
             for tool_call in msg.tool_calls:
                 if tool_call.function.name == "rag_pipeline":
                     try:
-                        args = eval(tool_call.function.arguments)
+                        args = json.loads(tool_call.function.arguments) 
                         result = rag_pipeline(**args)
+                        print("Result of rag tool : - " , result)
                         if result["success"]:
                             return {
                                 "success": True,
                                 "source": "josaa_rag_tool",
-                                "answer": result["answer"]
+                                "answer": result["answer"]["result"]
                             }
                         else:
                             return {
@@ -85,7 +84,7 @@ def chat_agent(user_question: str) -> dict:
              
             return {
                 "success": True,
-                "source": "llm",
+                "source": "agent_llm",
                 "answer": msg.content
             }
 

@@ -1,4 +1,7 @@
 from flask import Flask, request, jsonify
+import asyncio
+from llm_chat_agent import chat_agent
+
 
 app = Flask(__name__)
 
@@ -9,7 +12,6 @@ def first_response_through_DB():
         category = data.get('category')
         advance_rank = data.get('advance_rank')
         mains_rank = data.get('mains_rank')
-        input_message = data.get('input_message')
 
         #  idhar sirf database se fetch krke response bhejna h - top 10 clgs ki details
 
@@ -41,10 +43,20 @@ def further_responses_through_LLM():
         # idhar user ke further questions answer hoge jo vo first response ke baad puchega 
 
         # saare function idhar import krke use krne h
-        
-
-
-        # response back to frontend
+        response = asyncio.run(chat_agent(user_query, chat_history))
+        if response.get("success"):
+            return jsonify({
+                "status": "success",
+                "source": response.get("source"),
+                "answer": response.get("answer")
+            }), 200
+        else:
+            return jsonify({
+                "status": "error",
+                "source": response.get("source"),
+                "message": "Chat agent failed to process the request.",
+                "error": response.get("error")
+            }), 500
         
     except Exception as e:
         return jsonify({
