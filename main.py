@@ -36,7 +36,7 @@ def first_response_through_DB():
 def further_responses_through_LLM():
     try:
         data = request.get_json()
-        chat_history = data.get('chat_history')  # dictionary se role-wise segregate krke list me convert krke direct groq ke messages parameter me daal dege
+        chat_history = data.get('chat_history')   
         user_query = data.get('user_query')
          
 
@@ -68,4 +68,4 @@ def further_responses_through_LLM():
 
 
 if __name__ == '__main__':
-    app.run(port=3000 , debug=True)
+    app.run(port=5000 , debug=True)
