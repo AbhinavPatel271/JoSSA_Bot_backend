@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import asyncio
 from llm_chat_agent import chat_agent
+from reccomender import create_chat_completion
 
 
 app = Flask(__name__)
@@ -12,11 +13,9 @@ def first_response_through_DB():
         category = data.get('category')
         advance_rank = data.get('advance_rank')
         mains_rank = data.get('mains_rank')
+        messages = None
+        create_chat_completion()
 
-        #  idhar sirf database se fetch krke response bhejna h - top 10 clgs ki details
-
-        # saare function idhar import krke use krne h
-        
 
 
         # response back to frontend

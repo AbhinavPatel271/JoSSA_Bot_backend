@@ -70,7 +70,7 @@ def rag_pipeline(question: str) -> dict:
 
     
         llm = ChatGroq(
-        groq_api_key=os.getenv("Groq_API_KEY_JOSSA_RAG"),
+        groq_api_key=os.getenv("Groq_API_KEY"),
         model_name="llama3-70b-8192"
     )
 

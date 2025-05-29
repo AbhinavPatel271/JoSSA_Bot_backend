@@ -54,7 +54,7 @@ def create_chat_completion(messages):
                             "tool_call_id": tool_call.id,
                             "role": "tool", # Indicates this message is from tool use
                             "name": name,
-                            "content": output,
+                            "content": str(output),
                         })
 
     second_response = client.chat.completions.create(

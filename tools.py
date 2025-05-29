@@ -6,6 +6,7 @@ from pymongo.server_api import ServerApi
 from bson.objectid import ObjectId
 import json
 from duckduckgo_search import DDGS
+from agent_tools.josaa_rag_tool import rag_tool_schema, rag_pipeline
 
 load_dotenv(find_dotenv())
 
@@ -150,7 +151,7 @@ available_tools = [{
 #         }
 #     }
 # }
-]
+rag_tool_schema]
 
 
 # Creating the tools which can be accessed
