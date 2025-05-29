@@ -1,19 +1,19 @@
 from typing import Dict, Any
 from duckduckgo_search import DDGS
 
+
+
 def web_search(query: str, max_results: int = 3) -> Dict[str, Any]:
     try:
-        results = []
         with DDGS() as ddgs:
-            for r in ddgs.text(query, max_results=max_results):
-                results.append({
-                    "body": r.get("body", "").strip(),
-                    "source": r.get("href", "").strip()
-                })
+            for result in ddgs.text(query, max_results=max_results):
+                result['href'] = result['href'].replace('+', "%20")
+                body = [str(result) for result in response]
+                response = "\nNext Result: ".join(body)
 
         return {
             "success": True,
-            "answer": results,
+            "answer": response,
             "error": None
         }
 
@@ -28,34 +28,26 @@ def web_search(query: str, max_results: int = 3) -> Dict[str, Any]:
 
 
 web_search_tool_schema = {
-    "name": "web_search",
-    "description" : "Search the web for up-to-date information about colleges, including placements, rankings, admissions, courses, and comparisons to help students make informed decisions."
-,
-    "parameters": {
-        "type": "object",
-        "properties": {
-            "query": {
-                "type": "string",
-                "description": (
-                    "The search query to find college-related information. "
-                    "Can include college names, placement stats, rankings, admission requirements, "
-                    "course offerings, infrastructure details, or comparisons."
-                ),
-                "examples": [
-                    "What are the best colleges for computer science engineering India",
-                    "Affordable colleges for mechanical engineering",
-                    "IIT vs NIT placement statistics 2024",
-                    "IIT Delhi Placement Stats",
-                    "How is the campus life at IIT Hyderabad",
-                    "How is NIT Surathkal as compared to IIT Indore",
-                    "What the placement trends in IITs",
-                    "IIT Roorkee vs IIT BHU CSE"
-                ]
+        "type": "function",
+        "function": {
+            "name": "web_search",
+            "description": "Search the web for information about colleges, rankings, admissions, and educational institutions to help students find the best college options",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query to find college-related information. Can include college names, ranking criteria, admission requirements, course offerings, location preferences, or comparison terms",
+                        "examples": [
+                            "IIT vs NIT placement statistics 2024",
+                            "IIT Bombay Placement Stats",
+                            "IIT Bombay NIRF Ranking",
+                            "IIT Indore Coding Culture Reddit",
+                            "IIT Bombay Hostel Life Reddit"
+                        ]
+                    }
+                },
+                "required": ["query"]
             }
-        },
-        "required": ["query"]
-    },
-    "function": web_search
-}
-
-print(web_search("What are the placement stats at IIT Patna ?"))
+        }
+    }
