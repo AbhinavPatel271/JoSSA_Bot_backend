@@ -5,12 +5,13 @@ from duckduckgo_search import DDGS
 
 def web_search(query: str, max_results: int = 3) -> Dict[str, Any]:
     try:
+        response =''
         with DDGS() as ddgs:
             for result in ddgs.text(query, max_results=max_results):
-                result['href'] = result['href'].replace('+', "%20")
-                body = [str(result) for result in response]
-                response = "\nNext Result: ".join(body)
-
+                if "%20" not in result['href']:
+                    result['href'] = result['href'].replace('+', "%20")
+                body = str(result)
+                response = response + body + "\n"
         return {
             "success": True,
             "answer": response,

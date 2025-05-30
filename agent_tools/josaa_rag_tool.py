@@ -18,7 +18,7 @@ rag_tool_schema = {
             "type": "function",
             "function": {
                 "name": "rag_pipeline",
-                "description": "Use this tool to answer user questions that match official JOSAA FAQs or document-based queries.",
+                "description": "Use this tool to answer user questions that match official JOSAA FAQs or document-based queries. Use this tool strictly for Josaa and not college specific policies",
                 "parameters": {
                     "type": "object",
                     "properties": {
