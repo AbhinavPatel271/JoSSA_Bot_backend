@@ -27,7 +27,7 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
             ]
         }
         colleges = list(collection.find(query, {"_id": 0}))
-        print(json.dumps(colleges))
+        # print(json.dumps(colleges))
         return {
             "success": True,
             "answer" : json.dumps(colleges),

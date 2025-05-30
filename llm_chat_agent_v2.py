@@ -5,13 +5,15 @@ from agent_tools.ORCR_finder_rank import find_colleges_in_rank_range, college_ra
 from groqAPIcall import get_response
 from typing import List, Dict
 import json
+import asyncio
+import nest_asyncio
 
 load_dotenv()
 
 from typing import List, Dict
 
 
-def format_messages_param(chat_history: List[Dict[str, str]], user_question: str) -> List[Dict[str, str]]:
+def format_messages_param(user_question: str , chat_history: List[Dict[str, str]] = None) -> List[Dict[str, str]]:
     # Base system message defining assistant behavior
     system_message = {
         "role": "system",
@@ -31,10 +33,17 @@ def format_messages_param(chat_history: List[Dict[str, str]], user_question: str
         )
     }
     # Base user message to let LLM understand the context of the first response(which is through database)
-    base_user_msg = {
+    if chat_history:
+        base_user_msg = {
         "role": "user",
-        "content": "hi"
+        "content": "Suggest me colleges based on my ranks , categot"
     }
+    else:
+        base_user_msg = {
+        "role": "user",
+        "content": user_question
+    }
+
 
     formatted_messages = [system_message]
     formatted_messages.append(base_user_msg)
@@ -42,7 +51,7 @@ def format_messages_param(chat_history: List[Dict[str, str]], user_question: str
     if chat_history:
         for msg in chat_history:
 
-            if msg.get("role") in {"user", "assistant", "tool"} and "content" in msg:
+            if msg.get("role") in {"user", "assistant"} and "content" in msg:
                 formatted_messages.append({"role": msg["role"], "content": msg["content"]})
 
     formatted_messages.append({"role": "user", "content": user_question})
@@ -51,10 +60,11 @@ def format_messages_param(chat_history: List[Dict[str, str]], user_question: str
 
 
 async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dict:
+    print(f"==> chat_agent called")
     try:
 
         # user chat_history for assistant and user role messages
-        messages = format_messages_param(chat_history, user_question)
+        messages = format_messages_param(user_question , chat_history)
 
         response = await get_response(
             "llama3-70b-8192",
@@ -68,7 +78,7 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
         )
 
         msg = response.choices[0].message
-        print("tool_calls:", msg.tool_calls)
+        # print("tool_calls:", msg.tool_calls)
         output = None
 
         if msg.tool_calls:
@@ -82,7 +92,7 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
                     try:
                         args = json.loads(tool_call.function.arguments)
                         result = rag_pipeline(**args)
-                        print("Result of rag tool : - ", result)
+                        print("Rag tool used")
                         if result["success"]:
                             output = result["answer"]["result"]
                             messages.append(
@@ -148,24 +158,26 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
                     except Exception as tool_exec_error:
                         return {
                             "success": False,
-                            "source": "ORCR Finder Used",
+                            "source": "ORCR_finder",
                             "error": f"Error during tool execution: {str(tool_exec_error)}"
                         }
 
 
             try:
+                print("Using 2nd LLM.....")
                 chat_completion = await get_response(messages= messages, model_name = "llama3-70b-8192", tools = None, tool_choice= 'none')
                 response = chat_completion.choices[0].message.content
+                print("2nd LLM gave response.")
                 return {
                     "success" : True,
-                    "source" : "agent_llm",
+                    "source" : "assistant",
                     "answer" : str(response),
                 }
 
             except Exception as e:
                 return {
                     "success": False,
-                    "source": "agent",
+                    "source": "assistant",
                     "error": f"Unexpected error in chat_agent: {str(e)}"
                 }
 
@@ -175,17 +187,22 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
 
             return {
                 "success": True,
-                "source": "agent_llm",
+                "source": "assistant",
                 "answer": msg.content
             }
 
     except Exception as e:
         return {
             "success": False,
-            "source": "agent",
+            "source": "assistant",
             "error": f"Unexpected error in chat_agent: {str(e)}"
         }
 
 
-if __name__ == "__main__":
-    chat_agent()
+
+# nest_asyncio.apply()
+
+# loop = asyncio.get_event_loop()
+
+# def chat_agent_async(prompt, chat_history=None):
+#     return loop.run_until_complete(chat_agent(prompt, chat_history))
