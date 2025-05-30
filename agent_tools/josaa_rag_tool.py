@@ -18,7 +18,8 @@ rag_tool_schema = {
             "type": "function",
             "function": {
                 "name": "rag_pipeline",
-                "description": "Use this tool to answer user questions that match official JOSAA FAQs or document-based queries. Use this tool strictly for Josaa and not college specific policies",
+                "description": "Use this tool to answer user questions that match official JOSAA FAQs or document-based queries. "
+                "PRECAUTION - USE THIS TOOL STRICTLY FOR JOSAA COUNCELLING RELATED QUERIES AND NOT FOR COLLEGE SPECIFIC DETAILS AND POLICIES.",
                 "parameters": {
                     "type": "object",
                     "properties": {
@@ -76,7 +77,7 @@ def rag_pipeline(question: str) -> dict:
 
     
         prompt_template = f"""
-You are a knowledgeable assistant specializing in JOSAA (Joint Seat Allocation Authority) counselling for the academic year 2025–26.
+You are a knowledgeable assistant specializing in JOSAA (Joint Seat Allocation Authority) counselling for the academic year 2025-26.
 
 You will be asked factual, FAQ-style questions, such as "What documents are required in the JOSAA counselling process?" or "What is the eligibility for seat allocation?"
 
@@ -89,8 +90,8 @@ Your behavior must follow these guidelines:
   **"The rules do not clearly mention a direct answer to this question. However, based on the available information in Section XYZ, here is what can be interpreted..."**
   - and point out the relevant section or text from the context.
 - If no relevant information is found in the context, reply with:
-  **"The official JOSAA rules provided do not contain information relevant to your query. You may consider visiting the official JOSAA website at [https://josaa.nic.in/](https://josaa.nic.in/) and explore the 'Information' section, where more details might be available."**
-
+  **"The official JOSAA rules provided do not contain information relevant to your query. You may consider visiting the official JOSAA website at [https://josaa.nic.in/](https://josaa.nic.in/) where more details might be available."**
+- Always end your answer with something like please make sure to verify it from the official JOSAA website at [https://josaa.nic.in/](https://josaa.nic.in/)
 Be concise, factual, and avoid repetition. Do not generate content outside the bounds of the provided material.
 
 ---

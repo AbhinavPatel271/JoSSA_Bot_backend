@@ -1,23 +1,42 @@
-from flask import Flask, request, jsonify
-import asyncio
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from typing import List, Dict, Optional
 from llm_chat_agent_v2 import chat_agent
-# from llm_chat_agent_v2 import chat_agent_async 
 from agent_tools.ORCR_finder_rank import find_colleges_in_rank_range
 
+app = FastAPI()
 
-app = Flask(__name__)
+# CORS setup - same as flask_cors.CORS(app)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Update this to your frontend URL in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-@app.route('/first_response', methods=['POST'])
-async def first_response_through_DB():
+# Define Pydantic models to parse request body
+
+class FirstResponseInput(BaseModel):
+    category: str
+    advance_rank: Optional[str] = None
+    mains_rank: Optional[str] = None
+    gender: str
+
+class FurtherChatInput(BaseModel):
+    chat_history: List[Dict[str, str]]
+
+@app.post('/first_response')
+async def first_response_through_DB(data: FirstResponseInput):
     print("==> First response endpoint hit")
     try:
-        data = request.get_json()
-
         # Obtaining the data from frontend
-        category = data.get('category')
-        advance_rank = data.get('advance_rank')
-        mains_rank = data.get('mains_rank')
-        gender = data.get('gender')
+        category = data.category
+        advance_rank = data.advance_rank
+        mains_rank = data.mains_rank
+        gender = data.gender
 
         # Passing the generated prompt through the LLM
         if advance_rank:
@@ -26,62 +45,77 @@ async def first_response_through_DB():
         prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}"
         response_mains = await chat_agent(prompt_mains)
          
-        response_data = { "response_mains": response_mains["answer"] }
+        # response_data = { "response_mains": response_mains["answer"] }
+        response_data = {  }
         if advance_rank:
               response_data["response_advance"] = response_advance["answer"]
+        if mains_rank:
+              response_data["response_mains"] = response_mains["answer"]      
 
-        return jsonify({
-           "status": "success",
-           "source": "assistant",
-           "answer": response_data
-        }), 200      
+        return JSONResponse(
+            status_code=200,
+            content={
+               "status": "success",
+               "source": "assistant",
+               "answer": response_data
+            }
+        )      
 
         # response back to frontend
         
     except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": "An error occurred while processing the request.",
-            "error": str(e)
-        }), 500
+        return JSONResponse(
+            status_code=500,
+            content={
+                "status": "error",
+                "message": "An error occurred while processing the request.",
+                "error": str(e)
+            }
+        )
     
 
-
-@app.route('/further_chat', methods=['POST'])
-async def further_responses_through_LLM():
+@app.post('/further_chat')
+async def further_responses_through_LLM(data: FurtherChatInput):
+    print("==> Further chat endpoint hit")
     try:
-        data = request.get_json()
-        chat_history = data.get('chat_history')   
+        chat_history = data.chat_history   
         
-         
         last_message = chat_history.pop() if chat_history else {}
         user_query = last_message.get('content', '')
 
         
         response = await chat_agent(user_query, chat_history)
         if response.get("success"):
-            return jsonify({
-                "status": "success",
-                "source": "assistant",
-                "answer": response.get("answer")
-            }), 200
+            return JSONResponse(
+                status_code=200,
+                content={
+                    "status": "success",
+                    "source": "assistant",
+                    "answer": response.get("answer")
+                }
+            )
         else:
-            return jsonify({
-                "status": "error",
-                "source": "assistant",
-                "message": "Chat agent failed to process the request.",
-                "error": response.get("error")
-            }), 500
+            return JSONResponse(
+                status_code=500,
+                content={
+                    "status": "error",
+                    "source": "assistant",
+                    "message": "Chat agent failed to process the request.",
+                    "error": response.get("error")
+                }
+            )
         
     except Exception as e:
-        return jsonify({
-            "status": "error",
-            "message": "An error occurred while processing the request.",
-            "error": str(e)
-        }), 500
-
+        return JSONResponse(
+            status_code=500,
+            content={
+                "status": "error",
+                "message": "An error occurred while processing the request.",
+                "error": str(e)
+            }
+        )
 
 
 if __name__ == '__main__':
-    app.run(port=5000 , debug=True)
-
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=5000, log_level="debug")
