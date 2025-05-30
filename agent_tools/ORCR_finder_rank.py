@@ -4,7 +4,7 @@ import json
 import os
 from dotenv import load_dotenv, find_dotenv
 
-def find_colleges_in_rank_range(rank, category, gender):
+def find_colleges_in_rank_range(rank, category, gender, rank_type):
     try:
         load_dotenv(find_dotenv())
 
@@ -22,7 +22,8 @@ def find_colleges_in_rank_range(rank, category, gender):
                 {"Closing Rank": {"$lte": upper_bound}},
                 {"Closing Rank": {"$gte": lower_bound}},
                 {"Seat Type": category},
-                {"Gender": gender}
+                {"Gender": gender},
+                {"Rank Type": rank_type}
             ]
         }
         colleges = list(collection.find(query, {"_id": 0}))
@@ -56,15 +57,20 @@ college_rank_range_schema = {
         "category": {
           "type": "string",
           "description": "The seat type/category (e.g., General, OBC, SC, ST, EWS)",
-          "enum" : ["OPEN", "EWS", "OBC-NCL", "SC", "ST"]
+          "enum": ["OPEN", "EWS", "OBC-NCL", "SC", "ST"]
         },
         "gender": {
           "type": "string",
           "description": "The gender category. Male = Gender-Neutral",
           "enum": ["Female", "Gender-Neutral"]
+        },
+        "rank_type": {
+          "type": "string",
+          "description": "The type of the rank which is provided, Mains or Advanced",
+          "enum": ["Mains", "Advanced"]
         }
       },
-      "required": ["rank", "category", "gender"]
+      "required": ["rank", "category", "gender", "rank_type"]
     }
   }
 }
