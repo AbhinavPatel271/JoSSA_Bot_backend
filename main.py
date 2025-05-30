@@ -71,15 +71,15 @@ def further_responses_through_LLM():
 
 if __name__ == '__main__':
     app.run(port=5000 , debug=True)
-    # category = "OBC-NCL"
-    # advance_rank = 1000
-    # mains_rank = 1869
+    # category = "General"
+    # advance_rank = 1698
+    # mains_rank = 12000
     # gender = "Male"
     #
     # # Passing the generated prompt through the LLM
     # prompt = f"Can You find me the 10 best colleges based on my rank of Advanced {advance_rank}, category {category} and gender {gender}"
     # response = asyncio.run(chat_agent(prompt))
     # print(response['answer'])
-    # prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}"
+    # prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}. Do not include Architecture courses in you recommendation. Include the opening and closing ranks in your reccomendations"
     # response_mains = asyncio.run(chat_agent(prompt_mains))["answer"]
     # print(response_mains)

@@ -15,7 +15,7 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
         collection = ORCR.ORCR
         rank = int(rank)
 
-        upper_bound = rank + 600
+        upper_bound = rank + 800
         lower_bound = rank - 200
         query = {
             "$and": [
@@ -27,15 +27,16 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
             ]
         }
         colleges = list(collection.find(query, {"_id": 0}))
+        print(json.dumps(colleges))
         return {
             "success": True,
             "answer" : json.dumps(colleges),
             "error" : None
         }
 
+
     except Exception as e:
         error_msg = f"Error in web_search: {str(e)}"
-        print(error_msg)
         return {
             "success": False,
             "answer": None,
