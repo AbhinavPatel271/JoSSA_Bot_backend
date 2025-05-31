@@ -70,12 +70,12 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
         messages = format_messages_param(user_question , chat_history)
 
         response = await get_response(
-            "meta-llama/llama-4-scout-17b-16e-instruct",
-            # "llama-3.1-8b-instant",
+            # "meta-llama/llama-4-scout-17b-16e-instruct",
+            "llama-3.1-8b-instant",
             # "llama3-70b-8192",
             messages = messages,
             tools=[
-                # rag_tool_schema,
+                rag_tool_schema,
                 web_search_tool_schema,
                 college_rank_range_schema
             ],
@@ -173,9 +173,9 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
             try:
                 print("Using 2nd LLM.....")
                 chat_completion = await get_response(messages= messages,
-                                                     model_name="meta-llama/llama-4-scout-17b-16e-instruct",
+                                                    #  model_name="meta-llama/llama-4-scout-17b-16e-instruct",
                                                     # model_name = "llama-3.1-8b-instant",
-                                                    #   model_name = "llama3-70b-8192",
+                                                      model_name = "llama3-70b-8192",
                                                      tools = None, tool_choice= 'none')
                 response = chat_completion.choices[0].message.content
                 print("2nd LLM gave response.")
