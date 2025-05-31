@@ -27,7 +27,19 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
             ]
         }
         colleges = list(collection.find(query, {"_id": 0}))
-        # print(json.dumps(colleges))
+        
+        new_list = []
+        if rank_type == "Mains":
+            college_list = colleges
+            for clg in college_list:
+                # print(clg)
+                if "Architecture" not in clg["Academic Program Name"]:
+                    # continue
+                    new_list.append(clg)
+            colleges = new_list        
+
+         
+        # print(f"Colleges : {json.dumps(colleges)}")
         return {
             "success": True,
             "answer" : json.dumps(colleges),
@@ -63,7 +75,7 @@ college_rank_range_schema = {
         "gender": {
           "type": "string",
           "description": "The gender category. Male = Gender-Neutral",
-          "enum": ["Female", "Gender-Neutral"]
+          "enum": ["Female-only (including Supernumerary)", "Gender-Neutral"]
         },
         "rank_type": {
           "type": "string",

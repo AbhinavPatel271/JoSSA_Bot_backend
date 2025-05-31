@@ -27,6 +27,16 @@ class FirstResponseInput(BaseModel):
 
 class FurtherChatInput(BaseModel):
     chat_history: List[Dict[str, str]]
+    prompt : str
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "FastAPI is live!"}
+
 
 @app.post('/first_response')
 async def first_response_through_DB(data: FirstResponseInput):
@@ -42,15 +52,15 @@ async def first_response_through_DB(data: FirstResponseInput):
         if advance_rank:
             prompt_advance = f"Can You find me the 10 best colleges based on my Advanced rank of {advance_rank}, category {category} and gender {gender}"
             response_advance = await chat_agent(prompt_advance)
-        # prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}"
-        # response_mains = await chat_agent(prompt_mains)
+        prompt_mains = f"Can you find me the 10 best colleges(or on availability basis) based on my Mains rank of {mains_rank}, category {category} and gender {gender}. Dont recommend architecture courses"
+        response_mains = await chat_agent(prompt_mains)
          
         # response_data = { "response_mains": response_mains["answer"] }
         response_data = {  }
         if advance_rank:
               response_data["response_advance"] = response_advance["answer"]
-        # if mains_rank:
-        #       response_data["response_mains"] = response_mains["answer"]      
+        if mains_rank:
+              response_data["response_mains"] = response_mains["answer"]      
 
         return JSONResponse(
             status_code=200,
@@ -79,12 +89,14 @@ async def further_responses_through_LLM(data: FurtherChatInput):
     print("==> Further chat endpoint hit")
     try:
         chat_history = data.chat_history   
-        
+        prompt = data.prompt
+      
+        # print("Prompt from frontend : " , prompt)
         last_message = chat_history.pop() if chat_history else {}
         user_query = last_message.get('content', '')
 
         
-        response = await chat_agent(user_query, chat_history)
+        response = await chat_agent(user_query, chat_history , prompt)
         if response.get("success"):
             return JSONResponse(
                 status_code=200,

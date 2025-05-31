@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import fitz  
-
+from groqAPIcall import get_current_key , get_next_key_index
  
 from dotenv import load_dotenv
 load_dotenv()
@@ -26,7 +26,13 @@ rag_tool_schema = {
                     "properties": {
                         "question": {
                             "type": "string",
-                            "description": "The user's query related to JOSAA"
+                            "description": "The user's query related to JOSAA",
+                            "examples": [
+                            "Documents required for counselling process",
+                            "No. of rounds in counselling process",
+                            "Rules of the counselling process",
+                            "JOSAA start and end date",
+                        ]
                         }
                     },
                     "required": ["question"]
@@ -35,6 +41,16 @@ rag_tool_schema = {
         }
 
 
+api_keys = os.getenv("GROQ_API_KEY").split(",")
+
+ 
+current_key_index = 0
+
+def get_next_key_index():
+    global current_key_index
+    current_key_index += 1
+    current_key_index = (current_key_index % len(api_keys))
+    return current_key_index
 
 pdf_path = "JoSSA_Bot/docs/JOSSA_2025-26_rules.pdf"
 
@@ -71,12 +87,6 @@ def rag_pipeline(question: str) -> dict:
         retriever = vectorstore.as_retriever()
 
     
-        llm = ChatGroq(
-        groq_api_key=os.getenv("Groq_API_KEY"),
-        model_name="llama3-70b-8192"
-    )
-
-    
         prompt_template = f"""
 You are a knowledgeable assistant specializing in JOSAA (Joint Seat Allocation Authority) counselling for the academic year 2025-26.
 
@@ -109,21 +119,40 @@ Answer:
         template=prompt_template,
         input_variables=["context", "question"]
     )
+        
+        from groqAPIcall import api_keys
+        for _ in range(len(api_keys)):
+            try:
+                llm = ChatGroq(
+                    groq_api_key=get_current_key(),
+                    model_name="llama3-70b-8192"
+                )
 
-     
-        qa = RetrievalQA.from_chain_type(
-        llm=llm,
-        retriever=retriever,
-        chain_type="stuff",
-        chain_type_kwargs={"prompt": prompt}
-    )
+                qa = RetrievalQA.from_chain_type(
+                    llm=llm,
+                    retriever=retriever,
+                    chain_type="stuff",
+                    chain_type_kwargs={"prompt": prompt}
+                )
 
-        answer = qa.invoke({"query": question})
+                answer = qa.invoke({"query": question})
+                return {
+                    "success": True,
+                    "answer": answer,
+                    "error": None
+                }
+
+            except Exception as e:
+                print(f"[Key Failed] Trying next key... Reason: {e}")
+                get_next_key_index()  # Rotate to next key and try again
+
+        # If all keys fail
         return {
-            "success": True,
-            "answer": answer,
-            "error": None
+            "success": False,
+            "answer": None,
+            "error": "All API keys failed to fetch response."
         }
+    
     except Exception as e:
         error_msg = f"Error in RAG pipeline: {str(e)}"
         print(error_msg)

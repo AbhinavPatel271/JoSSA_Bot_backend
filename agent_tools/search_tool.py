@@ -3,7 +3,7 @@ from duckduckgo_search import DDGS
 
 
 
-def web_search(query: str, max_results: int = 3) -> Dict[str, Any]:
+def web_search(query: str, max_results: int = 5) -> Dict[str, Any]:
     try:
         response =''
         with DDGS() as ddgs:
@@ -43,11 +43,13 @@ web_search_tool_schema = {
                         "examples": [
                             "IIT vs NIT placement statistics 2024",
                             "IIT Bombay Placement Stats",
-                            "IIT Bombay NIRF Ranking",
+                            "IIT Delhi NIRF Ranking",
                             "IIT Indore Coding Culture Reddit",
                             "IIT Bombay Hostel Life Reddit",
-                            "President of Cynaptics Club at IIT Indore"
-                            "What is the course curriculum of IIT Indore CSE"
+                            "course curriculum of IIT Indore CSE",
+                            "closing rank of IIT Jammu Electrical",
+                            "opening rank of IIT Roorkee Geology",
+                            "clubs at IIT Indore"
                         ]
                     }
                 },
