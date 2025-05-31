@@ -9,6 +9,8 @@ from agent_tools.ORCR_finder_rank import find_colleges_in_rank_range
 app = FastAPI()
 
 # CORS setup - same as flask_cors.CORS(app)
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Update this to your frontend URL in production
@@ -29,9 +31,6 @@ class FurtherChatInput(BaseModel):
     chat_history: List[Dict[str, str]]
     prompt : str
 
-from fastapi import FastAPI
-
-app = FastAPI()
 
 @app.get("/")
 def read_root():
