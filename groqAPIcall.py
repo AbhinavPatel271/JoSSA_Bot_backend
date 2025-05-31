@@ -31,7 +31,7 @@ async def get_response(model_name , messages , tools ,  max_completion_tokens= 1
                 max_completion_tokens=max_completion_tokens,
                 tools = tools,
                 tool_choice= tool_choice,
-                temperature= 0.9,
+                temperature= 0.6,
                 stream=False,
             )
 

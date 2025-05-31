@@ -21,8 +21,8 @@ app.add_middleware(
 
 class FirstResponseInput(BaseModel):
     category: str
-    advance_rank: Optional[str] = None
-    mains_rank: Optional[str] = None
+    advance_rank: int
+    mains_rank: int
     gender: str
 
 class FurtherChatInput(BaseModel):

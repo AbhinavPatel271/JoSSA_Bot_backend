@@ -84,8 +84,8 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
         print(f"MESSAGES : {messages}")
         response = await get_response(
             # "meta-llama/llama-4-scout-17b-16e-instruct",
-            "llama-3.1-8b-instant",
-            # "llama3-70b-8192",
+            # "llama-3.1-8b-instant",
+            "llama3-70b-8192",
             messages = messages,
             tools=[
                 rag_tool_schema,
