@@ -19,7 +19,8 @@ rag_tool_schema = {
             "function": {
                 "name": "rag_pipeline",
                 "description": "Use this tool to answer user questions that match official JOSAA FAQs or document-based queries. "
-                "PRECAUTION - USE THIS TOOL STRICTLY FOR JOSAA COUNCELLING RELATED QUERIES AND NOT FOR COLLEGE SPECIFIC DETAILS AND POLICIES.",
+                "PRECAUTION - USE THIS TOOL STRICTLY FOR JOSAA COUNCELLING RELATED QUERIES AND NOT FOR COLLEGE SPECIFIC DETAILS AND POLICIES."
+                "Do not use this tool for queries mentioning anything about any college.",
                 "parameters": {
                     "type": "object",
                     "properties": {

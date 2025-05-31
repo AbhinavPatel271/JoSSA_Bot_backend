@@ -48,17 +48,30 @@ def format_messages_param(user_question: str , chat_history: List[Dict[str, str]
     }
 
 
-    formatted_messages = [system_message]
-    formatted_messages.append(base_user_msg)
-
+    formatted_messages = [system_message, base_user_msg]
+    filtered = []  # Initialize filtered as empty list first
     if chat_history:
-        for msg in chat_history:
+    # Filter only user/assistant messages with content
+      filtered = [
+        {"role": msg["role"], "content": msg["content"]}
+        for msg in chat_history
+        if msg.get("role") in {"user", "assistant"} and "content" in msg
+    ]
+    
+    # Append only the last 4 messages
+    if len(filtered) > 4:
+        to_append = filtered[-4:]
+    else:
+        
+        to_append = filtered
+ 
+    for msg in to_append:
 
-            if msg.get("role") in {"user", "assistant"} and "content" in msg:
-                formatted_messages.append({"role": msg["role"], "content": msg["content"]})
+        formatted_messages.append(msg)
+
 
     formatted_messages.append({"role": "user", "content": user_question})
-
+   
     return formatted_messages
 
 

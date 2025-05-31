@@ -32,7 +32,8 @@ web_search_tool_schema = {
         "type": "function",
         "function": {
             "name": "web_search",
-            "description": "Search the web for information about colleges, rankings, admissions, and educational institutions to help students find the best college options",
+            "description": "Search the web for information about colleges, rankings, admissions, and educational institutions to help students find the best college options"
+            "Use this tool for any kind of information about colleges such as coding culture and technical societies",
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -44,7 +45,9 @@ web_search_tool_schema = {
                             "IIT Bombay Placement Stats",
                             "IIT Bombay NIRF Ranking",
                             "IIT Indore Coding Culture Reddit",
-                            "IIT Bombay Hostel Life Reddit"
+                            "IIT Bombay Hostel Life Reddit",
+                            "President of Cynaptics Club at IIT Indore"
+                            "What is the course curriculum of IIT Indore CSE"
                         ]
                     }
                 },

@@ -42,15 +42,15 @@ async def first_response_through_DB(data: FirstResponseInput):
         if advance_rank:
             prompt_advance = f"Can You find me the 10 best colleges based on my Advanced rank of {advance_rank}, category {category} and gender {gender}"
             response_advance = await chat_agent(prompt_advance)
-        prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}"
-        response_mains = await chat_agent(prompt_mains)
+        # prompt_mains = f"Can you find me the 10 best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}"
+        # response_mains = await chat_agent(prompt_mains)
          
         # response_data = { "response_mains": response_mains["answer"] }
         response_data = {  }
         if advance_rank:
               response_data["response_advance"] = response_advance["answer"]
-        if mains_rank:
-              response_data["response_mains"] = response_mains["answer"]      
+        # if mains_rank:
+        #       response_data["response_mains"] = response_mains["answer"]      
 
         return JSONResponse(
             status_code=200,
