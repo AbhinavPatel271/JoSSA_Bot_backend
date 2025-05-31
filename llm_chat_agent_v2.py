@@ -68,7 +68,7 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None) -> dic
         print("USER QUERY :" , user_question)
         # user chat_history for assistant and user role messages
         messages = format_messages_param(user_question , chat_history)
-
+        print(f"MESSAGES : {messages}")
         response = await get_response(
             # "meta-llama/llama-4-scout-17b-16e-instruct",
             "llama-3.1-8b-instant",
