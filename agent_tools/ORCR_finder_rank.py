@@ -38,8 +38,8 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
                     new_list.append(clg)
             colleges = new_list        
 
-         
-        # print(f"Colleges : {json.dumps(colleges)}")
+        print(f"Rank type : {rank_type} , Rank : {rank} , Category : {category} , Gender : {gender} ")
+        print(f"Colleges : \n {json.dumps(colleges)} \n\n")
         return {
             "success": True,
             "answer" : json.dumps(colleges),
