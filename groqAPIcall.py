@@ -6,7 +6,7 @@ from groq import AuthenticationError, RateLimitError , APIError
 load_dotenv()
 api_keys = os.getenv("GROQ_API_KEY").split(",")
 
-print("No. of keys  : " , len(api_keys))
+print("Total number of keys being used : " , len(api_keys))
  
 current_key_index = 0
 
@@ -22,8 +22,9 @@ def get_next_key_index():
 
 async def get_response(model_name , messages , tools ,  max_completion_tokens= 1024 , tool_choice= 'auto',):
     global current_key_index
+    tried_keys = 0
 
-    while current_key_index < len(api_keys):
+    while tried_keys < len(api_keys):
         key = api_keys[current_key_index].strip()
         print(f"Trying key{current_key_index + 1}...")
 
@@ -44,10 +45,12 @@ async def get_response(model_name , messages , tools ,  max_completion_tokens= 1
             return raw_response
 
         except (AuthenticationError, RateLimitError , APIError) as e:
+            tried_keys += 1
             print(f"Key{current_key_index + 1} failed: {e}")
             get_next_key_index()
 
         except Exception as e:
+            tried_keys += 1
             print(f"Unexpected error with key{current_key_index + 1}: {e}")
             get_next_key_index()
 
