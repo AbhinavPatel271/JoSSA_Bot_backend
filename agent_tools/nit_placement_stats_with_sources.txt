@@ -1,0 +1,1966 @@
+ {
+  "NIT Trichy": [
+    {
+      "source": "https://www.nitt.edu/home/students/facilitiesnservices/tp/download/UG-Brochure-2024-25.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science and Engineering (CSE)",
+      "Students_Registered": 117,
+      "Students_Placed": 115,
+      "Placement_Percentage": 98.29,
+      "Offers_Received": 172,
+      "Highest_CTC_in_Lakhs": 54.08,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 24.63,
+      "Median_CTC_in_Lakhs": 20.00
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 119,
+      "Students_Placed": 116,
+      "Placement_Percentage": 97.48,
+      "Offers_Received": 176,
+      "Highest_CTC_in_Lakhs": 51.83,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 20.17,
+      "Median_CTC_in_Lakhs": 16.50
+    },
+    {
+      "Branch": "Electrical and Electronics Engineering (EEE)",
+      "Students_Registered": 113,
+      "Students_Placed": 108,
+      "Placement_Percentage": 95.58,
+      "Offers_Received": 140,
+      "Highest_CTC_in_Lakhs": 40.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 15.88,
+      "Median_CTC_in_Lakhs": 14.00
+    },
+    {
+      "Branch": "Mechanical Engineering (ME)",
+      "Students_Registered": 118,
+      "Students_Placed": 105,
+      "Placement_Percentage": 88.98,
+      "Offers_Received": 120,
+      "Highest_CTC_in_Lakhs": 22.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 10.56,
+      "Median_CTC_in_Lakhs": 9.60
+    },
+    {
+      "Branch": "Civil Engineering (CE)",
+      "Students_Registered": 103,
+      "Students_Placed": 81,
+      "Placement_Percentage": 78.64,
+      "Offers_Received": 89,
+      "Highest_CTC_in_Lakhs": 14.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 8.58,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering (MME)",
+      "Students_Registered": 102,
+      "Students_Placed": 95,
+      "Placement_Percentage": 93.14,
+      "Offers_Received": 113,
+      "Highest_CTC_in_Lakhs": 22.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 11.16,
+      "Median_CTC_in_Lakhs": 9.50
+    },
+    {
+      "Branch": "Chemical Engineering (ChE)",
+      "Students_Registered": 97,
+      "Students_Placed": 87,
+      "Placement_Percentage": 89.69,
+      "Offers_Received": 109,
+      "Highest_CTC_in_Lakhs": 26.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 11.35,
+      "Median_CTC_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Instrumentation and Control Engineering (ICE)",
+      "Students_Registered": 114,
+      "Students_Placed": 107,
+      "Placement_Percentage": 93.86,
+      "Offers_Received": 127,
+      "Highest_CTC_in_Lakhs": 36.50,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 14.33,
+      "Median_CTC_in_Lakhs": 12.15
+    },
+    {
+      "Branch": "Production Engineering (PE)",
+      "Students_Registered": 101,
+      "Students_Placed": 81,
+      "Placement_Percentage": 80.20,
+      "Offers_Received": 86,
+      "Highest_CTC_in_Lakhs": 17.50,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.61,
+      "Median_CTC_in_Lakhs": 9.00
+    }
+  ],
+  "NIT Surathkal": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dh4kqc/nit_surathkal_2024_placements_cs_avg_15_lpa_thats/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science Engineering",
+      "Students_Registered": 129,
+      "Students_Placed": null,
+      "Placement_Percentage": 83.59,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 55.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 23.24,
+      "Median_CTC_in_Lakhs": 21.31
+    },
+    {
+      "Branch": "Information Technology (and AI)",
+      "Students_Registered": 128,
+      "Students_Placed": null,
+      "Placement_Percentage": 80.95,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 55.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 24.13,
+      "Median_CTC_in_Lakhs": 18.48,
+      "Note": "Graph shows 128; text mentions 137 for B.Tech (IT & AI). Registered students taken from graph."
+    },
+    {
+      "Branch": "Electronics & Communication Engineering",
+      "Students_Registered": 130,
+      "Students_Placed": null,
+      "Placement_Percentage": 72.66,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 20.89,
+      "Median_CTC_in_Lakhs": 20.81,
+      "Note": "Text on page states B.Tech placement is 65.44% for 2023-24, graph shows 72.66%. Graph value used."
+    },
+    {
+      "Branch": "Electrical & Electronics Engineering",
+      "Students_Registered": 120,
+      "Students_Placed": null,
+      "Placement_Percentage": 68.80,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.89,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 13.77,
+      "Median_CTC_in_Lakhs": 11.0,
+      "Note": "Text on page states B.Tech placement is 60.15% for 2023-24, graph shows 68.80%. Graph value used."
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 109,
+      "Students_Placed": null,
+      "Placement_Percentage": 44.44,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 24.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 8.12,
+      "Median_CTC_in_Lakhs": 6.83,
+      "Note": "Text on page states B.Tech placement is 41.46% for 2023-24, graph shows 44.44%. Graph value used."
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 179,
+      "Students_Placed": null,
+      "Placement_Percentage": 77.97,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 36.05,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 12.57,
+      "Median_CTC_in_Lakhs": 11.07,
+      "Note": "Text on page states B.Tech placement is 74.4% for 2023-24, graph shows 77.97%. Graph value used. Text also mentions overall average salary package was 13 LPA for the department."
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 60,
+      "Students_Placed": null,
+      "Placement_Percentage": 85.71,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 25.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 13.17,
+      "Median_CTC_in_Lakhs": 8.54,
+      "Note": "Text on page states B.Tech placement is 78.69% for 2023-24, graph shows 85.71%. Graph value used."
+    },
+    {
+      "Branch": "Metallurgical and Material Sciences",
+      "Students_Registered": 49,
+      "Students_Placed": null,
+      "Placement_Percentage": 83.67,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 30.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 11.02,
+      "Median_CTC_in_Lakhs": 9.45,
+      "Note": "Text on page states B.Tech placement is 76.92% for 2023-24, graph shows 83.67%. Graph value used. Text also mentions median package was 9 LPA and average package was 10.76 LPA."
+    },
+    {
+      "Branch": "Mining Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Departmental page only shows M.Tech stats. B.Tech is offered."
+    }
+  ],
+  "NIT Rourkela": [
+    {
+      "source": "https://www.nitrkl.ac.in/CDC/PlacementStatistics/2023-24",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Biotechnology and Medical Engineering",
+      "Students_Registered": 34,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 36,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 4.50,
+      "Average_CTC_in_Lakhs": 11.23,
+      "Median_CTC_in_Lakhs": 7.71
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 65,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 67,
+      "Highest_CTC_in_Lakhs": 22.60,
+      "Minimum_CTC_in_Lakhs": 4.50,
+      "Average_CTC_in_Lakhs": 10.15,
+      "Median_CTC_in_Lakhs": 8.88
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 56,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 61,
+      "Highest_CTC_in_Lakhs": 30.00,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 12.01,
+      "Median_CTC_in_Lakhs": 11.40
+    },
+    {
+      "Branch": "Ceramic Engineering",
+      "Students_Registered": 46,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 59,
+      "Highest_CTC_in_Lakhs": 39.60,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 12.27,
+      "Median_CTC_in_Lakhs": 9.00
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Students_Registered": 139,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 157,
+      "Highest_CTC_in_Lakhs": 83.60,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 20.02,
+      "Median_CTC_in_Lakhs": 18.50
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "Students_Registered": 121,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 130,
+      "Highest_CTC_in_Lakhs": 120.00,
+      "Minimum_CTC_in_Lakhs": 3.00,
+      "Average_CTC_in_Lakhs": 17.53,
+      "Median_CTC_in_Lakhs": 13.50
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": 103,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 120,
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 13.13,
+      "Median_CTC_in_Lakhs": 10.16
+    },
+    {
+      "Branch": "Food Process Engineering",
+      "Students_Registered": 17,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 18,
+      "Highest_CTC_in_Lakhs": 30.00,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 10.18,
+      "Median_CTC_in_Lakhs": 8.25
+    },
+    {
+      "Branch": "Industrial Design",
+      "Students_Registered": 22,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 22,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 11.36,
+      "Median_CTC_in_Lakhs": 10.16
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 113,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 128,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 11.78,
+      "Median_CTC_in_Lakhs": 11.50
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering",
+      "Students_Registered": 55,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 62,
+      "Highest_CTC_in_Lakhs": 21.65,
+      "Minimum_CTC_in_Lakhs": 4.00,
+      "Average_CTC_in_Lakhs": 10.22,
+      "Median_CTC_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Mining Engineering",
+      "Students_Registered": 39,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": 39,
+      "Highest_CTC_in_Lakhs": 27.62,
+      "Minimum_CTC_in_Lakhs": 5.50,
+      "Average_CTC_in_Lakhs": 11.74,
+      "Median_CTC_in_Lakhs": 10.00
+    }
+  ],
+  "NIT Warangal": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dijz98/nitwarangal_placement_stats/?share_id=bTMpZ39GpqOZ9VX04mUoF&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science and Engineering (CS)",
+      "Students_Registered": 134,
+      "Students_Placed": 119,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 88.8,
+      "Minimum_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 30.7,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Chemical Engineering (CH)",
+      "Students_Registered": 85,
+      "Students_Placed": 73,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 85.9,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 13.0,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Mechanical Engineering (ME)",
+      "Students_Registered": 122,
+      "Students_Placed": 100,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 82.0,
+      "Minimum_CTC_in_Lakhs": 5.50,
+      "Average_CTC_in_Lakhs": 15.3,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (EC)",
+      "Students_Registered": 118,
+      "Students_Placed": 101,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 85.6,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 21.5,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electrical Engineering (EE)",
+      "Students_Registered": 111,
+      "Students_Placed": 90,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 81.1,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 16.9,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Civil Engineering (CE)",
+      "Students_Registered": 79,
+      "Students_Placed": 57,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 72.2,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 9.6,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering (MM)",
+      "Students_Registered": 57,
+      "Students_Placed": 38,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 66.7,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 11.3,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Biotechnology (BT)",
+      "Students_Registered": 54,
+      "Students_Placed": 24,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 44.5,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 11.1,
+      "Median_CTC_in_Lakhs": null
+    }
+  ],
+  "NIT Calicut": [
+    {
+      "source": "https://placement.nitc.ac.in/placement",
+      "year": "2022-2023"
+    },
+    {
+      "Branch": "Bio Technology",
+      "Students_Registered": 20,
+      "Students_Placed": 9,
+      "Placement_Percentage": 45.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 20.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 10.27,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 110,
+      "Students_Placed": 69,
+      "Placement_Percentage": 62.72,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 33.21,
+      "Minimum_CTC_in_Lakhs": 3.6,
+      "Average_CTC_in_Lakhs": 8.75,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 84,
+      "Students_Placed": 74,
+      "Placement_Percentage": 88.09,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 26.0,
+      "Minimum_CTC_in_Lakhs": 6.0,
+      "Average_CTC_in_Lakhs": 9.99,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Computer Science Engineering",
+      "Students_Registered": 154,
+      "Students_Placed": 148,
+      "Placement_Percentage": 96.10,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 47.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 21.92,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electrical & Electronics Engineering",
+      "Students_Registered": 128,
+      "Students_Placed": 120,
+      "Placement_Percentage": 93.75,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 38.04,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 14.74,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electronics & Communication Engineering",
+      "Students_Registered": 131,
+      "Students_Placed": 122,
+      "Placement_Percentage": 93.12,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 38.04,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 18.75,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 179,
+      "Students_Placed": 157,
+      "Placement_Percentage": 87.70,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 36.5,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 9.78,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Production Engineering",
+      "Students_Registered": 37,
+      "Students_Placed": 23,
+      "Placement_Percentage": 62.16,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 12.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 8.44,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Engineering Physics",
+      "Students_Registered": 14,
+      "Students_Placed": 12,
+      "Placement_Percentage": 85.71,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 43.45,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 13.71,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Materials Science & Engineering",
+      "Students_Registered": 19,
+      "Students_Placed": 12,
+      "Placement_Percentage": 63.15,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 17.73,
+      "Minimum_CTC_in_Lakhs": 4.8,
+      "Average_CTC_in_Lakhs": 9.87,
+      "Median_CTC_in_Lakhs": null
+    }
+  ],
+  "VNIT Nagpur": [
+    {
+      "source": "https://drive.google.com/file/d/1oXhaxRROXVy1qS6VNAiaKkGUEZV212A6/view?usp=sharing",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 82,
+      "Students_Placed": 50,
+      "Placement_Percentage": 60.98,
+      "Offers_Received": 50,
+      "Highest_CTC_in_Lakhs": 14.10,
+      "Minimum_CTC_in_Lakhs": 4.00,
+      "Average_CTC_in_Lakhs": 6.50,
+      "Median_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 83,
+      "Students_Placed": 56,
+      "Placement_Percentage": 67.47,
+      "Offers_Received": 60,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 10.47,
+      "Median_CTC_in_Lakhs": 10.17
+    },
+    {
+      "Branch": "Computer Science Engineering (CSE)",
+      "Students_Registered": 117,
+      "Students_Placed": 97,
+      "Placement_Percentage": 82.91,
+      "Offers_Received": 121,
+      "Highest_CTC_in_Lakhs": 64.00,
+      "Minimum_CTC_in_Lakhs": 4.00,
+      "Average_CTC_in_Lakhs": 17.01,
+      "Median_CTC_in_Lakhs": 12.00
+    },
+    {
+      "Branch": "Electrical and Electronics Engineering (EEE)",
+      "Students_Registered": 108,
+      "Students_Placed": 77,
+      "Placement_Percentage": 71.30,
+      "Offers_Received": 84,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 5.30,
+      "Average_CTC_in_Lakhs": 11.48,
+      "Median_CTC_in_Lakhs": 10.39
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 111,
+      "Students_Placed": 73,
+      "Placement_Percentage": 65.77,
+      "Offers_Received": 81,
+      "Highest_CTC_in_Lakhs": 64.00,
+      "Minimum_CTC_in_Lakhs": 5.30,
+      "Average_CTC_in_Lakhs": 12.80,
+      "Median_CTC_in_Lakhs": 11.50
+    },
+    {
+      "Branch": "Mechanical Engineering (MECH)",
+      "Students_Registered": 108,
+      "Students_Placed": 97,
+      "Placement_Percentage": 89.81,
+      "Offers_Received": 115,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 10.78,
+      "Median_CTC_in_Lakhs": 9.20
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering (MME)",
+      "Students_Registered": 85,
+      "Students_Placed": 60,
+      "Placement_Percentage": 70.59,
+      "Offers_Received": 63,
+      "Highest_CTC_in_Lakhs": 31.00,
+      "Minimum_CTC_in_Lakhs": 3.75,
+      "Average_CTC_in_Lakhs": 8.79,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Mining Engineering (MIN)",
+      "Students_Registered": 36,
+      "Students_Placed": 23,
+      "Placement_Percentage": 63.89,
+      "Offers_Received": 27,
+      "Highest_CTC_in_Lakhs": 14.45,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 9.12,
+      "Median_CTC_in_Lakhs": 7.75
+    },
+    {
+      "Branch": "M.Sc. Chemistry",
+      "Students_Registered": 48,
+      "Students_Eligible": 48,
+      "Students_Placed": 27,
+      "Placement_Percentage": 56.0,
+      "Lowest_Salary_LPA": 3.00,
+      "Median_Salary_LPA": 6.00,
+      "Average_Salary_LPA": 7.11,
+      "Highest_Salary_LPA": 13.00
+    },
+    {
+      "Branch": "M.Sc. Mathematics",
+      "Students_Registered": 42,
+      "Students_Eligible": 42,
+      "Students_Placed": 18,
+      "Placement_Percentage": 43.0,
+      "Lowest_Salary_LPA": 3.50,
+      "Median_Salary_LPA": 7.00,
+      "Average_Salary_LPA": 7.27,
+      "Highest_Salary_LPA": 12.88
+    },
+    {
+      "Branch": "M.Sc. Physics",
+      "Students_Registered": 42,
+      "Students_Eligible": 42,
+      "Students_Placed": 16,
+      "Placement_Percentage": 38.0,
+      "Lowest_Salary_LPA": 2.70,
+      "Median_Salary_LPA": 7.25,
+      "Average_Salary_LPA": 6.86,
+      "Highest_Salary_LPA": 11.00
+    }
+  ],
+  "MNIT Jaipur": [
+    {
+      "source": "https://placements.mnit.ac.in/public/assets/docs/PlacementReport2023-24.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 65,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 27.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 10.35,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 56,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 23.5,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 7.82,
+      "Median_CTC_in_Lakhs": 6.5
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 75,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 64.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 18.39,
+      "Median_CTC_in_Lakhs": 15.5
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 78,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 47.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.94,
+      "Median_CTC_in_Lakhs": 7.5
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 67,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 37.5,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 14.75,
+      "Median_CTC_in_Lakhs": 14.5
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 84,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 27.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.93,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering",
+      "Students_Registered": null,
+      "Students_Placed": 72,
+      "placement_percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 26.5,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.19,
+      "Median_CTC_in_Lakhs": 8.25
+    }
+  ],
+  "NIT Kurukshetra": [
+    {
+      "source": "https://nitkkr.ac.in/wp-content/uploads/2024/12/Academic-Session-2023-24.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 116,
+      "Students_Placed": 74,
+      "Placement_Percentage": 63.79,
+      "Offers_Received": 74,
+      "Highest_CTC_in_Lakhs": 26.64,
+      "Minimum_CTC_in_Lakhs": 3.36,
+      "Average_CTC_in_Lakhs": 7.88,
+      "Median_CTC_in_Lakhs": 6.85
+    },
+    {
+      "Branch": "Computer Engineering",
+      "Students_Registered": 78,
+      "Students_Placed": 61,
+      "Placement_Percentage": 78.21,
+      "Offers_Received": 62,
+      "Highest_CTC_in_Lakhs": 64.28,
+      "Minimum_CTC_in_Lakhs": 3.60,
+      "Average_CTC_in_Lakhs": 17.63,
+      "Median_CTC_in_Lakhs": 11.80
+    },
+    {
+      "Branch": "Information Technology",
+      "Students_Registered": 108,
+      "Students_Placed": 94,
+      "Placement_Percentage": 87.04,
+      "Offers_Received": 98,
+      "Highest_CTC_in_Lakhs": 52.75,
+      "Minimum_CTC_in_Lakhs": 3.60,
+      "Average_CTC_in_Lakhs": 16.75,
+      "Median_CTC_in_Lakhs": 12.82
+    },
+    {
+      "Branch": "Electronics & Comm. Engg.",
+      "Students_Registered": 132,
+      "Students_Placed": 94,
+      "Placement_Percentage": 71.21,
+      "Offers_Received": 97,
+      "Highest_CTC_in_Lakhs": 51.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 14.09,
+      "Median_CTC_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": 123,
+      "Students_Placed": 85,
+      "Placement_Percentage": 69.11,
+      "Offers_Received": 87,
+      "Highest_CTC_in_Lakhs": 36.42,
+      "Minimum_CTC_in_Lakhs": 3.96,
+      "Average_CTC_in_Lakhs": 10.49,
+      "Median_CTC_in_Lakhs": 8.75
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 150,
+      "Students_Placed": 129,
+      "Placement_Percentage": 86.00,
+      "Offers_Received": 132,
+      "Highest_CTC_in_Lakhs": 17.00,
+      "Minimum_CTC_in_Lakhs": 3.50,
+      "Average_CTC_in_Lakhs": 8.23,
+      "Median_CTC_in_Lakhs": 7.50
+    },
+    {
+      "Branch": "Production & Industrial Engg.",
+      "Students_Registered": 78,
+      "Students_Placed": 53,
+      "Placement_Percentage": 67.95,
+      "Offers_Received": 54,
+      "Highest_CTC_in_Lakhs": 17.73,
+      "Minimum_CTC_in_Lakhs": 4.20,
+      "Average_CTC_in_Lakhs": 8.77,
+      "Median_CTC_in_Lakhs": 7.50
+    }
+  ],
+  "NIT Silchar": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dik22e/nit_silchar_placement_stats_202324/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Civil Engineering (CE)",
+      "Students_Registered": 131,
+      "Students_Placed": 64,
+      "Placement_Percentage": 48.85,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.9,
+      "Minimum_CTC_in_Lakhs": 4.05,
+      "Average_CTC_in_Lakhs": 7.96,
+      "Median_CTC_in_Lakhs": 7.25
+    },
+    {
+      "Branch": "Computer Science and Engineering (CSE)",
+      "Students_Registered": 165,
+      "Students_Placed": 111,
+      "Placement_Percentage": 67.27,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.89,
+      "Minimum_CTC_in_Lakhs": 6.5,
+      "Average_CTC_in_Lakhs": 19.01,
+      "Median_CTC_in_Lakhs": 14.0
+    },
+    {
+      "Branch": "Electrical Engineering (EE)",
+      "Students_Registered": 143,
+      "Students_Placed": 77,
+      "Placement_Percentage": 53.85,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.89,
+      "Minimum_CTC_in_Lakhs": 4.2,
+      "Average_CTC_in_Lakhs": 11.72,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 168,
+      "Students_Placed": 85,
+      "Placement_Percentage": 50.60,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.89,
+      "Minimum_CTC_in_Lakhs": 4.0,
+      "Average_CTC_in_Lakhs": 15.80,
+      "Median_CTC_in_Lakhs": 11.0
+    },
+    {
+      "Branch": "Electronics and Instrumentation Engineering (EIE)",
+      "Students_Registered": 73,
+      "Students_Placed": 52,
+      "Placement_Percentage": 71.23,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.89,
+      "Minimum_CTC_in_Lakhs": 4.5,
+      "Average_CTC_in_Lakhs": 12.33,
+      "Median_CTC_in_Lakhs": 8.86
+    },
+    {
+      "Branch": "Mechanical Engineering (ME)",
+      "Students_Registered": 120,
+      "Students_Placed": 67,
+      "Placement_Percentage": 55.83,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.9,
+      "Minimum_CTC_in_Lakhs": 4.05,
+      "Average_CTC_in_Lakhs": 8.96,
+      "Median_CTC_in_Lakhs": 7.5
+    }
+  ],
+  "NIT Durgapur": [
+    {
+      "source": "https://placement.nitdgp.ac.in/placement-statistics/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Biotechnology (BT)",
+      "Students_Registered": 55,
+      "Students_Placed": 15,
+      "Placement_Percentage": 27.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 11.89,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 6.91,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Civil Engineering (CE)",
+      "Students_Registered": 71,
+      "Students_Placed": 40,
+      "Placement_Percentage": 56.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.95,
+      "Minimum_CTC_in_Lakhs": 4.5,
+      "Average_CTC_in_Lakhs": 8.27,
+      "Median_CTC_in_Lakhs": 8.1
+    },
+    {
+      "Branch": "Chemical Engineering (CHE)",
+      "Students_Registered": 69,
+      "Students_Placed": 53,
+      "Placement_Percentage": 77.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 11.89,
+      "Minimum_CTC_in_Lakhs": 4.5,
+      "Average_CTC_in_Lakhs": 7.25,
+      "Median_CTC_in_Lakhs": 8.5
+    },
+    {
+      "Branch": "Computer Science and Engineering (CSE)",
+      "Students_Registered": 185,
+      "Students_Placed": 127,
+      "Placement_Percentage": 69.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 81.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 16.76,
+      "Median_CTC_in_Lakhs": 9.0
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 97,
+      "Students_Placed": 61,
+      "Placement_Percentage": 63.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 36.42,
+      "Minimum_CTC_in_Lakhs": 6.0,
+      "Average_CTC_in_Lakhs": 16.08,
+      "Median_CTC_in_Lakhs": 9.0
+    },
+    {
+      "Branch": "Electrical Engineering (EE)",
+      "Students_Registered": 100,
+      "Students_Placed": 80,
+      "Placement_Percentage": 80.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.95,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 8.0,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Mechanical Engineering (ME)",
+      "Students_Registered": 177,
+      "Students_Placed": 124,
+      "Placement_Percentage": 70.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 7.3,
+      "Median_CTC_in_Lakhs": 8.2
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering (MME)",
+      "Students_Registered": 57,
+      "Students_Placed": 45,
+      "Placement_Percentage": 79.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 10.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 7.1,
+      "Median_CTC_in_Lakhs": 7.6
+    }
+  ],
+  "MNIT Allahabad": [
+    {
+      "source": "https://www.reddit.com/r/JEENEETards/comments/1cdx8i2/placement_of_nit_allahabad_prayagraj/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Biotechnology",
+      "Students_Registered": 15,
+      "Students_Placed": 10,
+      "Placement_Percentage": 66.67,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.63,
+      "Minimum_CTC_in_Lakhs": 4.80,
+      "Average_CTC_in_Lakhs": 10.17,
+      "Median_CTC_in_Lakhs": 9.50
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 48,
+      "Students_Placed": 35,
+      "Placement_Percentage": 72.92,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 63.78,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 11.97,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 66,
+      "Students_Placed": 46,
+      "Placement_Percentage": 69.70,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 28.89,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 9.94,
+      "Median_CTC_in_Lakhs": 8.10
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Students_Registered": 174,
+      "Students_Placed": 128,
+      "Placement_Percentage": 73.56,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 63.78,
+      "Minimum_CTC_in_Lakhs": 3.50,
+      "Average_CTC_in_Lakhs": 26.44,
+      "Median_CTC_in_Lakhs": 23.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": 74,
+      "Students_Placed": 53,
+      "Placement_Percentage": 71.62,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 63.78,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 16.66,
+      "Median_CTC_in_Lakhs": 11.40
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "Students_Registered": 153,
+      "Students_Placed": 104,
+      "Placement_Percentage": 67.97,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 63.78,
+      "Minimum_CTC_in_Lakhs": 3.50,
+      "Average_CTC_in_Lakhs": 18.64,
+      "Median_CTC_in_Lakhs": 15.00
+    },
+    {
+      "Branch": "Information Technology",
+      "Students_Registered": 116,
+      "Students_Placed": 75,
+      "Placement_Percentage": 64.66,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 63.78,
+      "Minimum_CTC_in_Lakhs": 3.716,
+      "Average_CTC_in_Lakhs": 22.47,
+      "Median_CTC_in_Lakhs": 19.63
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 145,
+      "Students_Placed": 115,
+      "Placement_Percentage": 79.31,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.63,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 10.53,
+      "Median_CTC_in_Lakhs": 9.00
+    },
+    {
+      "Branch": "Production and Industrial Engg",
+      "Students_Registered": 30,
+      "Students_Placed": 24,
+      "Placement_Percentage": 80.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 15.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 8.35,
+      "Median_CTC_in_Lakhs": 7.00
+    }
+  ],
+  "NIT Jalandhar": [
+    {
+      "source": "https://v1.nitj.ac.in/nitj_files/links/pb1_68544.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 88,
+      "Students_Placed": 62,
+      "Placement_Percentage": 70.45,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 26.00,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 11.03,
+      "Median_CTC_in_Lakhs": 9.00
+    },
+    {
+      "Branch": "Electrical Engineering (EE)",
+      "Students_Registered": 49,
+      "Students_Placed": 42,
+      "Placement_Percentage": 85.71,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 30.00,
+      "Minimum_CTC_in_Lakhs": 5.50,
+      "Average_CTC_in_Lakhs": 10.56,
+      "Median_CTC_in_Lakhs": 8.22
+    },
+    {
+      "Branch": "Computer Science and Engineering (CSE)",
+      "Students_Registered": 134,
+      "Students_Placed": 115,
+      "Placement_Percentage": 85.82,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 53.00,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 13.21,
+      "Median_CTC_in_Lakhs": 11.89
+    },
+    {
+      "Branch": "Information Technology (IT)",
+      "Students_Registered": 109,
+      "Students_Placed": 86,
+      "Placement_Percentage": 78.90,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 33.00,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 11.47,
+      "Median_CTC_in_Lakhs": 8.40
+    },
+    {
+      "Branch": "Chemical Engineering (CHE)",
+      "Students_Registered": 45,
+      "Students_Placed": 45,
+      "Placement_Percentage": 100.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 15.12,
+      "Minimum_CTC_in_Lakhs": 3.50,
+      "Average_CTC_in_Lakhs": 7.43,
+      "Median_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Instrumentation and Control Engineering (ICE)",
+      "Students_Registered": 84,
+      "Students_Placed": 67,
+      "Placement_Percentage": 79.76,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 26.00,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 10.74,
+      "Median_CTC_in_Lakhs": 9.20
+    },
+    {
+      "Branch": "Civil Engineering (CIVIL)",
+      "Students_Registered": 61,
+      "Students_Placed": 39,
+      "Placement_Percentage": 63.93,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 15.12,
+      "Minimum_CTC_in_Lakhs": 4.50,
+      "Average_CTC_in_Lakhs": 7.19,
+      "Median_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Industrial and Production Engineering (IPE)",
+      "Students_Registered": 67,
+      "Students_Placed": 46,
+      "Placement_Percentage": 68.66,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.87,
+      "Minimum_CTC_in_Lakhs": 3.50,
+      "Average_CTC_in_Lakhs": 8.78,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Mechanical Engineering (ME)",
+      "Students_Registered": 76,
+      "Students_Placed": 76,
+      "Placement_Percentage": 100.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 17.50,
+      "Minimum_CTC_in_Lakhs": 3.24,
+      "Average_CTC_in_Lakhs": 7.90,
+      "Median_CTC_in_Lakhs": 7.75
+    },
+    {
+      "Branch": "Biotechnology (BT)",
+      "Students_Registered": 26,
+      "Students_Placed": 7,
+      "Placement_Percentage": 26.92,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.00,
+      "Minimum_CTC_in_Lakhs": 5.15,
+      "Average_CTC_in_Lakhs": 9.06,
+      "Median_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Textile Technology (TT)",
+      "Students_Registered": 50,
+      "Students_Placed": 27,
+      "Placement_Percentage": 54.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.00,
+      "Minimum_CTC_in_Lakhs": 4.00,
+      "Average_CTC_in_Lakhs": 8.98,
+      "Median_CTC_in_Lakhs": 7.50
+    }
+  ],
+  "SVNIT Surat": [
+    {
+      "source": "https://www.svnit.ac.in/web/t&p/pdf/Placement%20Summary.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Sci. Engg.",
+      "Students_Registered": 127,
+      "Students_Eligible": 127,
+      "Students_Placed": 108,
+      "Placement_Percentage": 85.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.71,
+      "Minimum_CTC_in_Lakhs": 5.28,
+      "Average_CTC_in_Lakhs": 16.82,
+      "Median_CTC_in_Lakhs": 15.00
+    },
+    {
+      "Branch": "Electrical Engg.",
+      "Students_Registered": 109,
+      "Students_Eligible": 109,
+      "Students_Placed": 85,
+      "Placement_Percentage": 78.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 36.42,
+      "Minimum_CTC_in_Lakhs": 5.39,
+      "Average_CTC_in_Lakhs": 10.00,
+      "Median_CTC_in_Lakhs": 8.50
+    },
+    {
+      "Branch": "Mechanical Engg.",
+      "Students_Registered": 206,
+      "Students_Eligible": 205,
+      "Students_Placed": 152,
+      "Placement_Percentage": 74.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.90,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 8.87,
+      "Median_CTC_in_Lakhs": 8.50
+    },
+    {
+      "Branch": "Chemical Engg.",
+      "Students_Registered": 111,
+      "Students_Eligible": 111,
+      "Students_Placed": 81,
+      "Placement_Percentage": 73.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.90,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 9.46,
+      "Median_CTC_in_Lakhs": 7.79
+    },
+    {
+      "Branch": "Electronics Engg.",
+      "Students_Registered": 161,
+      "Students_Eligible": 159,
+      "Students_Placed": 94,
+      "Placement_Percentage": 59.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 34.00,
+      "Minimum_CTC_in_Lakhs": 3.30,
+      "Average_CTC_in_Lakhs": 12.66,
+      "Median_CTC_in_Lakhs": 11.40
+    },
+    {
+      "Branch": "Civil Engg.",
+      "Students_Registered": 101,
+      "Students_Eligible": 101,
+      "Students_Placed": 52,
+      "Placement_Percentage": 52.0,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 16.00,
+      "Minimum_CTC_in_Lakhs": 3.60,
+      "Average_CTC_in_Lakhs": 6.85,
+      "Median_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "M.Sc. Chemistry",
+      "Students_Registered": 48,
+      "Students_Eligible": 48,
+      "Students_Placed": 27,
+      "Placement_Percentage": 56.0,
+      "Lowest_Salary_LPA": 3.00,
+      "Median_Salary_LPA": 6.00,
+      "Average_Salary_LPA": 7.11,
+      "Highest_Salary_LPA": 13.00
+    },
+    {
+      "Branch": "M.Sc. Mathematics",
+      "Students_Registered": 42,
+      "Students_Eligible": 42,
+      "Students_Placed": 18,
+      "Placement_Percentage": 43.0,
+      "Lowest_Salary_LPA": 3.50,
+      "Median_Salary_LPA": 7.00,
+      "Average_Salary_LPA": 7.27,
+      "Highest_Salary_LPA": 12.88
+    },
+    {
+      "Branch": "M.Sc. Physics",
+      "Students_Registered": 42,
+      "Students_Eligible": 42,
+      "Students_Placed": 16,
+      "Placement_Percentage": 38.0,
+      "Lowest_Salary_LPA": 2.70,
+      "Median_Salary_LPA": 7.25,
+      "Average_Salary_LPA": 6.86,
+      "Highest_Salary_LPA": 11.00
+    }
+  ],
+  "MANIT Bhopal": [
+    {
+      "source": "https://www.manit.ac.in/sites/default/files/documents/ALl_BRANCHES_STATS.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 90.3,
+      "Offers_Received": {
+        "IT_Sector_Offer": 180,
+        "Core_Sector_Offer": 25,
+        "Non_Core_Sector_Offer": 23
+      },
+      "Highest_CTC_in_Lakhs": 82.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 25.2,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 65.0,
+      "Offers_Received": {
+        "IT_Sector_Offer": 66,
+        "Core_Sector_Offer": 13,
+        "Non_Core_Sector_Offer": 15
+      },
+      "Highest_CTC_in_Lakhs": 52.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 14.91,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 83.0,
+      "Offers_Received": {
+        "IT_Sector_Offer": 13,
+        "Core_Sector_Offer": 28,
+        "Non_Core_Sector_Offer": 57
+      },
+      "Highest_CTC_in_Lakhs": 52.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.0,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 82.4,
+      "Offers_Received": {
+        "IT_Sector_Offer": 9,
+        "Core_Sector_Offer": 44,
+        "Non_Core_Sector_Offer": 8
+      },
+      "Highest_CTC_in_Lakhs": 15.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 7.9,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 62.5,
+      "Offers_Received": {
+        "IT_Sector_Offer": 6,
+        "Core_Sector_Offer": 43,
+        "Non_Core_Sector_Offer": 15
+      },
+      "Highest_CTC_in_Lakhs": 14.1,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 8.0,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Metallurgical And Materials Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": 81.0,
+      "Offers_Received": {
+        "IT_Sector_Offer": 14,
+        "Core_Sector_Offer": 34,
+        "Non_Core_Sector_Offer": 6
+      },
+      "Highest_CTC_in_Lakhs": 21.0,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.5,
+      "Median_CTC_in_Lakhs": null
+    },
+    {
+      "Branch": "Department of Mathematics and Data Science",
+      "Placement_Percentage": 17.24,
+      "Offers_Received": {
+        "IT_Sector_Offer": 2,
+        "Core_Sector_Offer": 3,
+        "Non_Core_Sector_Offer": 0
+      },
+      "Highest_Stipend_LPM": 1.1,
+      "Average_Stipend_K_LPM": 75
+    }
+  ],
+  "NIT Meghalaya": [
+    {
+      "source": "https://nitm.ac.in/Career/brochure/NIT_Meghalaya_Placement_Brochure_2023_2024.pdf",
+      "year": "2022-2023"
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-specific B.Tech statistics (CTC, placed numbers) are not available in the 2022-23 summary charts. Ongoing batch demographics show 142 students in B.Tech CSE."
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-specific B.Tech statistics (CTC, placed numbers) are not available in the 2022-23 summary charts. Ongoing batch demographics show 113 students in B.Tech ECE."
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-specific B.Tech statistics (CTC, placed numbers) are not available in the 2022-23 summary charts. Ongoing batch demographics show 115 students in B.Tech EE."
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-specific B.Tech statistics (CTC, placed numbers) are not available in the 2022-23 summary charts. Ongoing batch demographics show 139 students in B.Tech ME."
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-specific B.Tech statistics (CTC, placed numbers) are not available in the 2022-23 summary charts. Ongoing batch demographics show 109 students in B.Tech CE."
+    }
+  ],
+  "NIT Raipur": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dila9d/nit_raipur_placement_stats_202324/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Bio Medical Engineering",
+      "Students_Registered": 42,
+      "Students_Placed": 6,
+      "Placement_Percentage": 14.29,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 23.50,
+      "Minimum_CTC_in_Lakhs": 3.84,
+      "Average_CTC_in_Lakhs": 12.12,
+      "Median_CTC_in_Lakhs": 10.60
+    },
+    {
+      "Branch": "Bio Technology",
+      "Students_Registered": 44,
+      "Students_Placed": 10,
+      "Placement_Percentage": 22.73,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 13.66,
+      "Minimum_CTC_in_Lakhs": 3.84,
+      "Average_CTC_in_Lakhs": 8.86,
+      "Median_CTC_in_Lakhs": 7.78
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Students_Registered": 77,
+      "Students_Placed": 57,
+      "Placement_Percentage": 74.03,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 55.00,
+      "Minimum_CTC_in_Lakhs": 6.00,
+      "Average_CTC_in_Lakhs": 9.80,
+      "Median_CTC_in_Lakhs": 7.50
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 81,
+      "Students_Placed": 25,
+      "Placement_Percentage": 30.86,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.00,
+      "Minimum_CTC_in_Lakhs": 3.84,
+      "Average_CTC_in_Lakhs": 8.90,
+      "Median_CTC_in_Lakhs": 7.50
+    },
+    {
+      "Branch": "Computer Science & Engineering",
+      "Students_Registered": 104,
+      "Students_Placed": 79,
+      "Placement_Percentage": 75.96,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 62.00,
+      "Minimum_CTC_in_Lakhs": 5.40,
+      "Average_CTC_in_Lakhs": 14.61,
+      "Median_CTC_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": 108,
+      "Students_Placed": 67,
+      "Placement_Percentage": 62.04,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 55.00,
+      "Minimum_CTC_in_Lakhs": 3.60,
+      "Average_CTC_in_Lakhs": 10.09,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Electronics & Communication Engineering",
+      "Students_Registered": 97,
+      "Students_Placed": 56,
+      "Placement_Percentage": 57.73,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 42.00,
+      "Minimum_CTC_in_Lakhs": 3.84,
+      "Average_CTC_in_Lakhs": 12.29,
+      "Median_CTC_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Information Technology",
+      "Students_Registered": 110,
+      "Students_Placed": 76,
+      "Placement_Percentage": 69.09,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 55.00,
+      "Minimum_CTC_in_Lakhs": 5.25,
+      "Average_CTC_in_Lakhs": 18.44,
+      "Median_CTC_in_Lakhs": 14.00
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 99,
+      "Students_Placed": 77,
+      "Placement_Percentage": 77.78,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.48,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 9.93,
+      "Median_CTC_in_Lakhs": 8.50
+    },
+    {
+      "Branch": "Metallurgical and Materials Engineering",
+      "Students_Registered": 102,
+      "Students_Placed": 82,
+      "Placement_Percentage": 80.39,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 16.63,
+      "Minimum_CTC_in_Lakhs": 5.80,
+      "Average_CTC_in_Lakhs": 8.87,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Mining Engineering",
+      "Students_Registered": 84,
+      "Students_Placed": 45,
+      "Placement_Percentage": 53.57,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 13.66,
+      "Minimum_CTC_in_Lakhs": 6.50,
+      "Average_CTC_in_Lakhs": 9.16,
+      "Median_CTC_in_Lakhs": 8.00
+    }
+  ],
+  "NIT Agartala": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1e4txdy/nit_agartala_placement_stats/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Civil Engg.",
+      "Students_Registered": 88,
+      "Students_Placed": 27,
+      "Placement_Percentage": 30.68,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 16.5,
+      "Minimum_CTC_in_Lakhs": 4.5,
+      "Average_CTC_in_Lakhs": 9.7,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 14
+    },
+    {
+      "Branch": "Mechanical Engg.",
+      "Students_Registered": 101,
+      "Students_Placed": 30,
+      "Placement_Percentage": 29.70,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 20.0,
+      "Minimum_CTC_in_Lakhs": 4.8,
+      "Average_CTC_in_Lakhs": 9.0,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 18
+    },
+    {
+      "Branch": "Electrical Engg.",
+      "Students_Registered": 107,
+      "Students_Placed": 47,
+      "Placement_Percentage": 43.93,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 30.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 9.6,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 23
+    },
+    {
+      "Branch": "Electronics and Communication Engg.",
+      "Students_Registered": 110,
+      "Students_Placed": 52,
+      "Placement_Percentage": 47.27,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 30.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 11.8,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 29
+    },
+    {
+      "Branch": "Electronics and Instrumentation Engg.",
+      "Students_Registered": 70,
+      "Students_Placed": 40,
+      "Placement_Percentage": 57.14,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.18,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 8.7,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 19
+    },
+    {
+      "Branch": "Chemical Engg.",
+      "Students_Registered": 55,
+      "Students_Placed": 14,
+      "Placement_Percentage": 25.45,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 16.50,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 9.22,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 9
+    },
+    {
+      "Branch": "Production Engg.",
+      "Students_Registered": 71,
+      "Students_Placed": 32,
+      "Placement_Percentage": 45.07,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 18.0,
+      "Minimum_CTC_in_Lakhs": 7.6,
+      "Average_CTC_in_Lakhs": 3.5,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 15
+    },
+    {
+      "Branch": "Computer Science and Engg.",
+      "Students_Registered": 148,
+      "Students_Placed": 87,
+      "Placement_Percentage": 58.78,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 52.0,
+      "Minimum_CTC_in_Lakhs": 3.5,
+      "Average_CTC_in_Lakhs": 12.5,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 44
+    },
+    {
+      "Branch": "Bio Engg.",
+      "Students_Registered": 21,
+      "Students_Placed": 3,
+      "Placement_Percentage": 14.29,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 8.0,
+      "Minimum_CTC_in_Lakhs": 6.0,
+      "Average_CTC_in_Lakhs": 7.0,
+      "Median_CTC_in_Lakhs": null,
+      "Companies_Visited_for_Branch": 2
+    },
+    {
+      "Branch": "BTMT",
+      "Students_Registered": 16,
+      "Students_Placed": 3,
+      "Placement_Percentage": 18.75,
+      "Highest_CTC_in_Lakhs": 6.0,
+      "Minimum_CTC_in_Lakhs": 5.2,
+      "Average_CTC_in_Lakhs": 5.6,
+      "Companies_Visited_for_Branch": 2
+    },
+    {
+      "Branch": "BSMS",
+      "Students_Registered": 51,
+      "Students_Placed": 4,
+      "Placement_Percentage": 7.84,
+      "Highest_CTC_in_Lakhs": 8.0,
+      "Minimum_CTC_in_Lakhs": 4.5,
+      "Average_CTC_in_Lakhs": 6.87,
+      "Companies_Visited_for_Branch": 4
+    }
+  ],
+  "NIT Goa": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1d80ubo/nit_goa_placement_statistics/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science and Engineering (CSE)",
+      "Students_Registered": 22,
+      "Students_Placed": 19,
+      "Placement_Percentage": 86.63,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.0,
+      "Minimum_CTC_in_Lakhs": 5.1,
+      "Average_CTC_in_Lakhs": 10.45,
+      "Median_CTC_in_Lakhs": 10.0
+    },
+    {
+      "Branch": "Electronics and Communication Engineering (ECE)",
+      "Students_Registered": 35,
+      "Students_Placed": 31,
+      "Placement_Percentage": 88.57,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 20.0,
+      "Minimum_CTC_in_Lakhs": 3.0,
+      "Average_CTC_in_Lakhs": 9.98,
+      "Median_CTC_in_Lakhs": 8.0
+    },
+    {
+      "Branch": "Electrical and Electronics Engineering (EEE)",
+      "Students_Registered": 26,
+      "Students_Placed": 18,
+      "Placement_Percentage": 69.23,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 12.0,
+      "Minimum_CTC_in_Lakhs": 6.5,
+      "Average_CTC_in_Lakhs": 10.26,
+      "Median_CTC_in_Lakhs": 12.0
+    },
+    {
+      "Branch": "Mechanical Engineering (Mech)",
+      "Students_Registered": 21,
+      "Students_Placed": 13,
+      "Placement_Percentage": 61.90,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 12.0,
+      "Minimum_CTC_in_Lakhs": 5.0,
+      "Average_CTC_in_Lakhs": 6.91,
+      "Median_CTC_in_Lakhs": 6.5
+    },
+    {
+      "Branch": "Civil Engineering (Civil)",
+      "Students_Registered": 16,
+      "Students_Placed": 10,
+      "Placement_Percentage": 62.50,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 12.0,
+      "Minimum_CTC_in_Lakhs": 6.0,
+      "Average_CTC_in_Lakhs": 8.8,
+      "Median_CTC_in_Lakhs": 7.0
+    }
+  ],
+  "NIT Jamshedpur": [
+    {
+      "source": "https://nitjsr.ac.in/backend/uploads/placements/Placement_Brochure_2024-25.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Students_Registered": 95,
+      "Students_Placed": 85,
+      "Placement_Percentage": 94.90,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 14.10,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 8.08,
+      "Median_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Computer Science Engg.",
+      "Students_Registered": 110,
+      "Students_Placed": 94,
+      "Placement_Percentage": 93.04,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 82.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 20.84,
+      "Median_CTC_in_Lakhs": 15.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Students_Registered": 110,
+      "Students_Placed": 96,
+      "Placement_Percentage": 92.59,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 82.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 14.91,
+      "Median_CTC_in_Lakhs": 11.45
+    },
+    {
+      "Branch": "Electronics & Communication Engg.",
+      "Students_Registered": 105,
+      "Students_Placed": 84,
+      "Placement_Percentage": 90.29,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 82.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 15.08,
+      "Median_CTC_in_Lakhs": 12.00
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Students_Registered": 106,
+      "Students_Placed": 92,
+      "Placement_Percentage": 91.50,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 19.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.84,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Metallurgical & Materials Engineering",
+      "Students_Registered": 100,
+      "Students_Placed": 96,
+      "Placement_Percentage": 100.00,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 17.00,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 9.28,
+      "Median_CTC_in_Lakhs": 8.00
+    },
+    {
+      "Branch": "Production & Industrial Engineering",
+      "Students_Registered": 48,
+      "Students_Placed": 41,
+      "Placement_Percentage": 95.56,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": 14.10,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": 8.01,
+      "Median_CTC_in_Lakhs": 8.00
+    }
+  ],
+  "NIT Patna": [
+    {
+      "source": "https://tnp.nitp.ac.in/statistics",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": null,
+      "Students_Registered": null,
+      "Students_Placed": null,
+      "Placement_Percentage": null,
+      "Offers_Received": null,
+      "Highest_CTC_in_Lakhs": null,
+      "Minimum_CTC_in_Lakhs": null,
+      "Average_CTC_in_Lakhs": null,
+      "Median_CTC_in_Lakhs": null,
+      "Note": "Department-wise B.Tech statistics are not provided in the image."
+    }
+  ]
+}

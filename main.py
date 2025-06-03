@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List, Dict, Optional
 from llm_chat_agent_v2 import chat_agent
-from agent_tools.ORCR_finder_rank import find_colleges_in_rank_range
+
 
 app = FastAPI()
 
@@ -51,7 +51,7 @@ async def first_response_through_DB(data: FirstResponseInput):
         if advance_rank:
             prompt_advance = f"Can You find me the 10 best colleges based on my Advanced rank of {advance_rank}, category {category} and gender {gender}"
             response_advance = await chat_agent(prompt_advance)
-        prompt_mains = f"Can you find me the 10 best colleges(or on availability basis) based on my Mains rank of {mains_rank}, category {category} and gender {gender}. Dont recommend architecture courses"
+        prompt_mains = f"Can you find me the best colleges based on my Mains rank of {mains_rank}, category {category} and gender {gender}. Dont recommend architecture courses"
         response_mains = await chat_agent(prompt_mains)
          
         # response_data = { "response_mains": response_mains["answer"] }

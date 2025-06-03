@@ -6,15 +6,20 @@ from duckduckgo_search import DDGS
 def web_search(query: str, max_results: int = 5) -> Dict[str, Any]:
     try:
         response =''
+        sources = ""
         with DDGS() as ddgs:
-            for result in ddgs.text(query, max_results=max_results):
+            for i , result in enumerate(ddgs.text(query, max_results=max_results)):
                 if "%20" not in result['href']:
                     result['href'] = result['href'].replace('+', "%20")
+                    # sources += f"Source : {result['href']} \n"
+                    sources += f'<a href={result["href"]} target="_blank" > {result["href"]} </a> \n'
                 body = str(result)
                 response = response + body + "\n"
+
         return {
             "success": True,
             "answer": response,
+            "sources": sources,
             "error": None
         }
 
@@ -32,24 +37,27 @@ web_search_tool_schema = {
         "type": "function",
         "function": {
             "name": "web_search",
-            "description": "Search the web for information about colleges, rankings, admissions, and educational institutions to help students find the best college options"
-            "Use this tool for any kind of information about colleges such as coding culture and technical societies",
+            "description": "Search the web for FOCUSED, SINGLE-TOPIC information about colleges. CRITICAL: Use multiple separate calls for complex queries instead of cramming multiple topics into one search. Break down comparisons into individual searches for better results.",
             "parameters": {
                 "type": "object",
                 "properties": {
                     "query": {
                         "type": "string",
-                        "description": "The search query to find college-related information. Can include college names, ranking criteria, admission requirements, course offerings, location preferences, or comparison terms",
+                        "description": "A FOCUSED search query for ONE specific aspect of college information. AVOID complex multi-topic queries. Use separate calls for each college, each topic, each comparison aspect.",
                         "examples": [
-                            "IIT vs NIT placement statistics 2024",
-                            "IIT Bombay Placement Stats",
-                            "IIT Delhi NIRF Ranking",
-                            "IIT Indore Coding Culture Reddit",
-                            "IIT Bombay Hostel Life Reddit",
-                            "course curriculum of IIT Indore CSE",
-                            "closing rank of IIT Jammu Electrical",
-                            "opening rank of IIT Roorkee Geology",
-                            "clubs at IIT Indore"
+                            "IIT Bombay NIRF ranking 2024",
+                            "IIT Delhi campus life student experience",
+                            "IIT Madras hostel facilities",
+                            "IIT Kanpur computer science curriculum",
+                            "IIT Guwahati placement statistics",
+                            "IIT Roorkee branch change rules",
+                            "IIT Hyderabad research opportunities",
+                            "IIT Indore coding culture programming clubs"
+                        ],
+                        "anti_examples": [
+                            "IIT Bombay vs IIT Delhi campus life facilities ranking cutoffs",
+                            "Compare all IITs placement statistics and rankings",
+                            "IIT Bombay Delhi Madras campus life facilities hostels"
                         ]
                     }
                 },

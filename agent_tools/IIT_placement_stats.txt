@@ -1,0 +1,2008 @@
+{
+  "IIT BHU": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dw1beq/iit_bhu_2024_placement_stats/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Ceramic",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 17.87,
+      "Median_CTC_in_Lakhs": 11.72,
+      "Placement_Percentage": 42.42
+    },
+    {
+      "Branch": "Chemical",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 19.97,
+      "Median_CTC_in_Lakhs": 19.05,
+      "Placement_Percentage": 74.71
+    },
+    {
+      "Branch": "Civil",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 7.55,
+      "Average_CTC_in_Lakhs": 15.72,
+      "Median_CTC_in_Lakhs": 13.65,
+      "Placement_Percentage": 47.20
+    },
+    {
+      "Branch": "Computer Science",
+      "Highest_CTC_in_Lakhs": 168,
+      "Minimum_CTC_in_Lakhs": 19.00,
+      "Average_CTC_in_Lakhs": 34.87,
+      "Median_CTC_in_Lakhs": 34.62,
+      "Placement_Percentage": 89.91
+    },
+    {
+      "Branch": "Electronics",
+      "Highest_CTC_in_Lakhs": 90.00,
+      "Minimum_CTC_in_Lakhs": 6.25,
+      "Average_CTC_in_Lakhs": 27.47,
+      "Median_CTC_in_Lakhs": 25.40,
+      "Placement_Percentage": 81.63
+    },
+    {
+      "Branch": "Electrical",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 24.81,
+      "Median_CTC_in_Lakhs": 24.40,
+      "Placement_Percentage": 81.60
+    },
+    {
+      "Branch": "Mechanical",
+      "Highest_CTC_in_Lakhs": 54.00,
+      "Minimum_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 19.03,
+      "Median_CTC_in_Lakhs": 18.00,
+      "Placement_Percentage": 63.75
+    },
+    {
+      "Branch": "Metallurgy",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 14.94,
+      "Median_CTC_in_Lakhs": 13.10,
+      "Placement_Percentage": 59.52
+    },
+    {
+      "Branch": "Mining",
+      "Highest_CTC_in_Lakhs": 37.00,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 13.38,
+      "Median_CTC_in_Lakhs": 13.00,
+      "Placement_Percentage": 48.72
+    },
+    {
+      "Branch": "Pharmaceuticals",
+      "Highest_CTC_in_Lakhs": 36.00,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 16.59,
+      "Median_CTC_in_Lakhs": 13.55,
+      "Placement_Percentage": 43.75
+    }
+  ],
+  "IIT (BHU) Varanasi": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dw1beq/iit_bhu_2024_placement_stats/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Ceramic",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 17.87,
+      "Median_CTC_in_Lakhs": 11.72,
+      "Placement_Percentage": 42.42
+    },
+    {
+      "Branch": "Chemical",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 19.97,
+      "Median_CTC_in_Lakhs": 19.05,
+      "Placement_Percentage": 74.71
+    },
+    {
+      "Branch": "Civil",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 7.55,
+      "Average_CTC_in_Lakhs": 15.72,
+      "Median_CTC_in_Lakhs": 13.65,
+      "Placement_Percentage": 47.20
+    },
+    {
+      "Branch": "Computer Science",
+      "Highest_CTC_in_Lakhs": 168,
+      "Minimum_CTC_in_Lakhs": 19.00,
+      "Average_CTC_in_Lakhs": 34.87,
+      "Median_CTC_in_Lakhs": 34.62,
+      "Placement_Percentage": 89.91
+    },
+    {
+      "Branch": "Electronics",
+      "Highest_CTC_in_Lakhs": 90.00,
+      "Minimum_CTC_in_Lakhs": 6.25,
+      "Average_CTC_in_Lakhs": 27.47,
+      "Median_CTC_in_Lakhs": 25.40,
+      "Placement_Percentage": 81.63
+    },
+    {
+      "Branch": "Electrical",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 24.81,
+      "Median_CTC_in_Lakhs": 24.40,
+      "Placement_Percentage": 81.60
+    },
+    {
+      "Branch": "Mechanical",
+      "Highest_CTC_in_Lakhs": 54.00,
+      "Minimum_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 19.03,
+      "Median_CTC_in_Lakhs": 18.00,
+      "Placement_Percentage": 63.75
+    },
+    {
+      "Branch": "Metallurgy",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Minimum_CTC_in_Lakhs": 5.00,
+      "Average_CTC_in_Lakhs": 14.94,
+      "Median_CTC_in_Lakhs": 13.10,
+      "Placement_Percentage": 59.52
+    },
+    {
+      "Branch": "Mining",
+      "Highest_CTC_in_Lakhs": 37.00,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 13.38,
+      "Median_CTC_in_Lakhs": 13.00,
+      "Placement_Percentage": 48.72
+    },
+    {
+      "Branch": "Pharmaceuticals",
+      "Highest_CTC_in_Lakhs": 36.00,
+      "Minimum_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 16.59,
+      "Median_CTC_in_Lakhs": 13.55,
+      "Placement_Percentage": 43.75
+    }
+  ],
+  "IIT Hyderabad": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1daapkb/iit_hyderabad_placement_stats_202324/",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Artificial Intelligence",
+      "Highest_CTC_in_Lakhs": 51.06,
+      "Lowest_CTC_in_Lakhs": 16.00,
+      "Average_CTC_in_Lakhs": 31.99,
+      "Median_CTC_in_Lakhs": 20.00,
+      "No_of_Students_Registered": 27,
+      "No_of_Students_Placed": 25,
+      "Placement_Percentage": 92.59
+    },
+    {
+      "Branch": "Biomedical Engineering",
+      "Highest_CTC_in_Lakhs": 19.75,
+      "Lowest_CTC_in_Lakhs": 16.00,
+      "Average_CTC_in_Lakhs": 36.00,
+      "Median_CTC_in_Lakhs": 27.00,
+      "No_of_Students_Registered": 15,
+      "No_of_Students_Placed": 4,
+      "Placement_Percentage": 26.67
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Highest_CTC_in_Lakhs": 52.00,
+      "Lowest_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 17.34,
+      "Median_CTC_in_Lakhs": 11.00,
+      "No_of_Students_Registered": 46,
+      "No_of_Students_Placed": 23,
+      "Placement_Percentage": 50.00
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Lowest_CTC_in_Lakhs": 7.00,
+      "Average_CTC_in_Lakhs": 20.66,
+      "Median_CTC_in_Lakhs": 18.00,
+      "No_of_Students_Registered": 34,
+      "No_of_Students_Placed": 24,
+      "Placement_Percentage": 70.59
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Highest_CTC_in_Lakhs": 90.00,
+      "Lowest_CTC_in_Lakhs": 7.50,
+      "Average_CTC_in_Lakhs": 29.68,
+      "Median_CTC_in_Lakhs": 28.46,
+      "No_of_Students_Registered": 63,
+      "No_of_Students_Placed": 50,
+      "Placement_Percentage": 79.37
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Highest_CTC_in_Lakhs": 51.03,
+      "Lowest_CTC_in_Lakhs": 9.33,
+      "Average_CTC_in_Lakhs": 26.11,
+      "Median_CTC_in_Lakhs": 23.50,
+      "No_of_Students_Registered": 60,
+      "No_of_Students_Placed": 47,
+      "Placement_Percentage": 78.33
+    },
+    {
+      "Branch": "Engineering Physics",
+      "Highest_CTC_in_Lakhs": 37.50,
+      "Lowest_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 25.18,
+      "Median_CTC_in_Lakhs": 30.04,
+      "No_of_Students_Registered": 21,
+      "No_of_Students_Placed": 3,
+      "Placement_Percentage": 14.29
+    },
+    {
+      "Branch": "Mathematics and Computing",
+      "Highest_CTC_in_Lakhs": 52.00,
+      "Lowest_CTC_in_Lakhs": 18.00,
+      "Average_CTC_in_Lakhs": 37.31,
+      "Median_CTC_in_Lakhs": 38.37,
+      "No_of_Students_Registered": 21,
+      "No_of_Students_Placed": 15,
+      "Placement_Percentage": 71.43
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Highest_CTC_in_Lakhs": 47.95,
+      "Lowest_CTC_in_Lakhs": 9.00,
+      "Average_CTC_in_Lakhs": 18.71,
+      "Median_CTC_in_Lakhs": 18.25,
+      "No_of_Students_Registered": 54,
+      "No_of_Students_Placed": 29,
+      "Placement_Percentage": 53.70
+    },
+    {
+      "Branch": "Metallurgical Engineering",
+      "Highest_CTC_in_Lakhs": 36.00,
+      "Lowest_CTC_in_Lakhs": 8.00,
+      "Average_CTC_in_Lakhs": 13.97,
+      "Median_CTC_in_Lakhs": 15.84,
+      "No_of_Students_Registered": 26,
+      "No_of_Students_Placed": 18,
+      "Placement_Percentage": 69.23
+    }
+  ],
+  "IIT ISM Dhanbad": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1khlv4j/iit_ism_dhanbad_placement_stats_202425/",
+      "year": "2024-2025"
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "No_of_Students_Registered": 40,
+      "No_of_Students_Placed": 21,
+      "Placement_Percentage": 52.50,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 18.25,
+      "Median_CTC_in_Lakhs": 14.10,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Civil Engineering",
+      "No_of_Students_Registered": 52,
+      "No_of_Students_Placed": 26,
+      "Placement_Percentage": 50.00,
+      "Max_CTC_in_Lakhs": 59.00,
+      "Average_CTC_in_Lakhs": 34.58,
+      "Median_CTC_in_Lakhs": 12.00,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "No_of_Students_Registered": 143,
+      "No_of_Students_Placed": 124,
+      "Placement_Percentage": 86.71,
+      "Max_CTC_in_Lakhs": 66.14,
+      "Average_CTC_in_Lakhs": 27.50,
+      "Median_CTC_in_Lakhs": 24.90,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "No_of_Students_Registered": 104,
+      "No_of_Students_Placed": 83,
+      "Placement_Percentage": 79.81,
+      "Max_CTC_in_Lakhs": 52.30,
+      "Average_CTC_in_Lakhs": 20.18,
+      "Median_CTC_in_Lakhs": 16.00,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "No_of_Students_Registered": 114,
+      "No_of_Students_Placed": 98,
+      "Placement_Percentage": 85.96,
+      "Max_CTC_in_Lakhs": 66.14,
+      "Average_CTC_in_Lakhs": 23.50,
+      "Median_CTC_in_Lakhs": 20.00,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Engineering Physics",
+      "No_of_Students_Registered": 17,
+      "No_of_Students_Placed": 9,
+      "Placement_Percentage": 52.94,
+      "Max_CTC_in_Lakhs": 36.00,
+      "Average_CTC_in_Lakhs": 18.58,
+      "Median_CTC_in_Lakhs": 13.66,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Environmental Engineering",
+      "No_of_Students_Registered": 30,
+      "No_of_Students_Placed": 22,
+      "Placement_Percentage": 73.33,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 16.77,
+      "Median_CTC_in_Lakhs": 11.09,
+      "Min_CTC_in_Lakhs": 7.50
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "No_of_Students_Registered": 111,
+      "No_of_Students_Placed": 67,
+      "Placement_Percentage": 60.36,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 16.35,
+      "Median_CTC_in_Lakhs": 13.38,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Metallurgical Engineering",
+      "No_of_Students_Registered": 42,
+      "No_of_Students_Placed": 29,
+      "Placement_Percentage": 69.05,
+      "Max_CTC_in_Lakhs": 59.50,
+      "Average_CTC_in_Lakhs": 13.48,
+      "Median_CTC_in_Lakhs": 13.24,
+      "Min_CTC_in_Lakhs": 6.24
+    },
+    {
+      "Branch": "Mining Engineering",
+      "No_of_Students_Registered": 92,
+      "No_of_Students_Placed": 26,
+      "Placement_Percentage": 28.26,
+      "Max_CTC_in_Lakhs": 36.00,
+      "Average_CTC_in_Lakhs": 11.93,
+      "Median_CTC_in_Lakhs": 11.20,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Petroleum Engineering",
+      "No_of_Students_Registered": 98,
+      "No_of_Students_Placed": 61,
+      "Placement_Percentage": 62.24,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 11.41,
+      "Median_CTC_in_Lakhs": 10.00,
+      "Min_CTC_in_Lakhs": 5.50
+    }
+  ],
+  "IIT Jammu": [
+    {
+      "source": "https://iitjammu.ac.in/Facilities/cds/report/Placement%20Report%20-%202023-24.pdf,https://www.scribd.com/document/857687342/Placement-Report-2023-24-1",
+      "year": "2023-2024"
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "Batch_Size": 40,
+      "No_of_Students_Registered": 40,
+      "No_of_Students_Placed": 37,
+      "Highest_Salary_in_Lakhs": 52.1,
+      "Average_Salary_in_Lakhs": 19.47,
+      "Median_Salary_in_Lakhs": 15.00,
+      "Lowest_Salary_in_Lakhs": 10.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "Batch_Size": 36,
+      "No_of_Students_Registered": 36,
+      "No_of_Students_Placed": 11,
+      "Highest_Salary_in_Lakhs": 41.5,
+      "Average_Salary_in_Lakhs": 14.86,
+      "Median_Salary_in_Lakhs": 9.00,
+      "Lowest_Salary_in_Lakhs": 7.00
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "Batch_Size": 32,
+      "No_of_Students_Registered": 31,
+      "No_of_Students_Placed": 22,
+      "Highest_Salary_in_Lakhs": 44.0,
+      "Average_Salary_in_Lakhs": 14.25,
+      "Median_Salary_in_Lakhs": 10.50,
+      "Lowest_Salary_in_Lakhs": 5.00
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "Batch_Size": 26,
+      "No_of_Students_Registered": 25,
+      "No_of_Students_Placed": 9,
+      "Highest_Salary_in_Lakhs": 34.0,
+      "Average_Salary_in_Lakhs": 14.55,
+      "Median_Salary_in_Lakhs": 10.65,
+      "Lowest_Salary_in_Lakhs": 5.00
+    },
+    {
+      "Branch": "Civil Engineering",
+      "Batch_Size": 26,
+      "No_of_Students_Registered": 25,
+      "No_of_Students_Placed": 10,
+      "Highest_Salary_in_Lakhs": 41.5,
+      "Average_Salary_in_Lakhs": 12.86,
+      "Median_Salary_in_Lakhs": 9.00,
+      "Lowest_Salary_in_Lakhs": 5.00
+    },
+    {
+      "Branch": "Metallurgical Engineering",
+      "Batch_Size": 22,
+      "No_of_Students_Registered": 21,
+      "No_of_Students_Placed": 8,
+      "Highest_Salary_in_Lakhs": 11.9,
+      "Average_Salary_in_Lakhs": 7.17,
+      "Median_Salary_in_Lakhs": 6.37,
+      "Lowest_Salary_in_Lakhs": 5.00
+    }
+  ],
+  "IIT Jodhpur": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1ck0mo3/iit_jodhpur_placement_and_internship_statistics/",
+      "year": "2022-2023"
+    },
+    {
+      "Branches": [
+        {
+          "Branch": "Computer Science and Engineering",
+          "Placement_Percentage": 94.05,
+          "Median_Package_in_Lakhs": 18.5,
+          "Average_Package_in_Lakhs": 20.63
+        },
+        {
+          "Branch": "Artificial Intelligence and Data Science",
+          "Placement_Percentage": 89.13
+        },
+        {
+          "Branch": "Artificial Intelligence",
+          "Median_Package_in_Lakhs": 15.0,
+          "Average_Package_in_Lakhs": 20.30
+        },
+        {
+          "Branch": "Environmental Engineering",
+          "Placement_Percentage": 64.29,
+          "Median_Package_in_Lakhs": 11.93,
+          "Average_Package_in_Lakhs": 9.0
+        },
+        {
+          "Branch": "Electrical Engineering",
+          "Placement_Percentage": 78.46,
+          "Median_Package_in_Lakhs": 12.38,
+          "Average_Package_in_Lakhs": 17.60
+        },
+        {
+          "Branch": "Mechanical Engineering",
+          "Placement_Percentage": 74.47,
+          "Median_Package_in_Lakhs": 9.21,
+          "Average_Package_in_Lakhs": 8.5
+        },
+        {
+          "Branch": "Chemical Engineering",
+          "Placement_Percentage": 66.18,
+          "Median_Package_in_Lakhs": 13.86,
+          "Average_Package_in_Lakhs": 10.0
+        },
+        {
+          "Branch": "Civil Engineering",
+          "Placement_Percentage": 50.0,
+          "Median_Package_in_Lakhs": 12.94,
+          "Average_Package_in_Lakhs": 9.35
+        },
+        {
+          "Branch": "Metallurgical Engineering",
+          "Placement_Percentage": 50.0,
+          "Median_Package_in_Lakhs": 10.23,
+          "Average_Package_in_Lakhs": 9.0
+        },
+        {
+          "Branch": "Biomedical Engineering",
+          "Placement_Percentage": 47.06,
+          "Median_Package_in_Lakhs": 7.82,
+          "Average_Package_in_Lakhs": 9.0
+        }
+      ],
+      "Overall_Statistics": {
+        "Overall_Placement_Percentage": 76.32,
+        "Overall_Median_Package_in_Lakhs": 12.94,
+        "Overall_Average_Package_in_Lakhs": 16.76
+      }
+    }
+  ],
+  "IIT Kanpur": [
+    {
+      "source": "https://www.iitk.ac.in/new/placement-season-2023-24,https://www.reddit.com/r/Btechtards/comments/1des6mh/iit_kanpur_placement_stats_202324/",
+      "year": "2023-2024"
+    },
+    {
+      "Metadata": {
+        "Data_As_Of": "21.05.2024",
+        "Generated_On": "02.06.2025"
+      },
+      "Branches": [
+        {
+          "Branch": "Aerospace Engineering",
+          "No_of_Students_Registered": 35,
+          "No_of_Students_Placed": 27,
+          "Placement_Percentage": 77.1,
+          "Average_CTC_in_Lakhs": 20.1,
+          "Median_CTC_in_Lakhs": 17.7
+        },
+        {
+          "Branch": "Biological Sciences and Bioengineering",
+          "No_of_Students_Registered": 24,
+          "No_of_Students_Placed": 12,
+          "Placement_Percentage": 50.0,
+          "Average_CTC_in_Lakhs": 13.8,
+          "Median_CTC_in_Lakhs": 14.7
+        },
+        {
+          "Branch": "Civil Engineering",
+          "No_of_Students_Registered": 104,
+          "No_of_Students_Placed": 72,
+          "Placement_Percentage": 69.2,
+          "Average_CTC_in_Lakhs": 16.3,
+          "Median_CTC_in_Lakhs": 15.8
+        },
+        {
+          "Branch": "Chemical Engineering",
+          "No_of_Students_Registered": 89,
+          "No_of_Students_Placed": 73,
+          "Placement_Percentage": 82.0,
+          "Average_CTC_in_Lakhs": 18.9,
+          "Median_CTC_in_Lakhs": 16.0
+        },
+        {
+          "Branch": "Computer Science and Engineering",
+          "No_of_Students_Registered": 121,
+          "No_of_Students_Placed": 116,
+          "Placement_Percentage": 95.9,
+          "Average_CTC_in_Lakhs": 52.8,
+          "Median_CTC_in_Lakhs": 40.7
+        },
+        {
+          "Branch": "Electrical Engineering",
+          "No_of_Students_Registered": 163,
+          "No_of_Students_Placed": 139,
+          "Placement_Percentage": 85.3,
+          "Average_CTC_in_Lakhs": 27.6,
+          "Median_CTC_in_Lakhs": 23.5
+        },
+        {
+          "Branch": "Mechanical Engineering",
+          "No_of_Students_Registered": 114,
+          "No_of_Students_Placed": 85,
+          "Placement_Percentage": 74.6,
+          "Average_CTC_in_Lakhs": 19.7,
+          "Median_CTC_in_Lakhs": 19.2
+        },
+        {
+          "Branch": "Materials Science and Engineering",
+          "No_of_Students_Registered": 74,
+          "No_of_Students_Placed": 52,
+          "Placement_Percentage": 70.3,
+          "Average_CTC_in_Lakhs": 17.3,
+          "Median_CTC_in_Lakhs": 15.0
+        }
+      ]
+    }
+  ],
+  "IIT Tirupati": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1daxhc9/iit_tirupati_placement_stats_202324/",
+      "year": "2023-2024"
+    },
+    {
+      "Metadata": {
+        "Data_As_Of": "End of Academic Year 2023-24 (RTI Request Dated 21.05.2024)",
+        "Generated_On": "02.06.2025"
+      },
+      "Branches": [
+        {
+          "Branch": "Chemical Engineering",
+          "Highest_CTC_in_Lakhs": 13.65,
+          "Lowest_CTC_in_Lakhs": 6.0,
+          "Average_CTC_in_Lakhs": 9.53,
+          "Median_CTC_in_Lakhs": 8.0,
+          "No_of_Students_Registered": 16,
+          "No_of_Students_Placed": 11,
+          "Placement_Percentage": 69.0
+        },
+        {
+          "Branch": "Civil Engineering",
+          "Highest_CTC_in_Lakhs": 13.0,
+          "Lowest_CTC_in_Lakhs": 6.0,
+          "Average_CTC_in_Lakhs": 8.98,
+          "Median_CTC_in_Lakhs": 7.5,
+          "No_of_Students_Registered": 15,
+          "No_of_Students_Placed": 4,
+          "Placement_Percentage": 27.0
+        },
+        {
+          "Branch": "Computer Science and Engineering",
+          "Highest_CTC_in_Lakhs": 41.64,
+          "Lowest_CTC_in_Lakhs": 8.0,
+          "Average_CTC_in_Lakhs": 20.57,
+          "Median_CTC_in_Lakhs": 13.65,
+          "No_of_Students_Registered": 51,
+          "No_of_Students_Placed": 37,
+          "Placement_Percentage": 73.0
+        },
+        {
+          "Branch": "Electrical Engineering",
+          "Highest_CTC_in_Lakhs": 36.42,
+          "Lowest_CTC_in_Lakhs": 6.0,
+          "Average_CTC_in_Lakhs": 14.46,
+          "Median_CTC_in_Lakhs": 9.0,
+          "No_of_Students_Registered": 46,
+          "No_of_Students_Placed": 25,
+          "Placement_Percentage": 54.0
+        },
+        {
+          "Branch": "Mechanical Engineering",
+          "Highest_CTC_in_Lakhs": 41.64,
+          "Lowest_CTC_in_Lakhs": 8.0,
+          "Average_CTC_in_Lakhs": 11.94,
+          "Median_CTC_in_Lakhs": 9.0,
+          "No_of_Students_Registered": 33,
+          "No_of_Students_Placed": 26,
+          "Placement_Percentage": 79.0
+        }
+      ]
+    }
+  ],
+  "IIT Bhubaneshwar": [
+    {
+      "source": "https://www.iitbbs.ac.in/index.php/home/placement-2024/",
+      "year": "2023-2024"
+    },
+    {
+      "Metadata": {
+        "Generated_On": "02.06.2025"
+      },
+      "BTech_Branches": [
+        {
+          "Branch": "Computer Science and Engineering",
+          "No_of_Students_Participated": 66,
+          "No_of_Students_Placed": 61,
+          "Placement_Percentage": 92.4,
+          "Highest_CTC_in_Lakhs": 64.0,
+          "Lowest_CTC_in_Lakhs": 10.0,
+          "Average_CTC_in_Lakhs": 22.6,
+          "Median_CTC_in_Lakhs": 16.3
+        },
+        {
+          "Branch": "Electronics and Communication Engineering",
+          "No_of_Students_Participated": 50,
+          "No_of_Students_Placed": 39,
+          "Placement_Percentage": 78.0,
+          "Highest_CTC_in_Lakhs": 64.0,
+          "Lowest_CTC_in_Lakhs": 5.0,
+          "Average_CTC_in_Lakhs": 20.3,
+          "Median_CTC_in_Lakhs": 16.0
+        },
+        {
+          "Branch": "Electrical Engineering",
+          "No_of_Students_Participated": 62,
+          "No_of_Students_Placed": 51,
+          "Placement_Percentage": 82.2,
+          "Highest_CTC_in_Lakhs": 64.0,
+          "Lowest_CTC_in_Lakhs": 5.0,
+          "Average_CTC_in_Lakhs": 19.4,
+          "Median_CTC_in_Lakhs": 12.0
+        },
+        {
+          "Branch": "Mechanical Engineering",
+          "No_of_Students_Participated": 53,
+          "No_of_Students_Placed": 50,
+          "Placement_Percentage": 94.3,
+          "Highest_CTC_in_Lakhs": 27.0,
+          "Lowest_CTC_in_Lakhs": 5.0,
+          "Average_CTC_in_Lakhs": 12.0,
+          "Median_CTC_in_Lakhs": 11.5
+        },
+        {
+          "Branch": "Civil Engineering",
+          "No_of_Students_Participated": 31,
+          "No_of_Students_Placed": 21,
+          "Placement_Percentage": 67.8,
+          "Highest_CTC_in_Lakhs": 20.0,
+          "Lowest_CTC_in_Lakhs": 6.1,
+          "Average_CTC_in_Lakhs": 12.3,
+          "Median_CTC_in_Lakhs": 11.3
+        },
+        {
+          "Branch": "Metallurgical Engineering",
+          "No_of_Students_Participated": 16,
+          "No_of_Students_Placed": 13,
+          "Placement_Percentage": 81.2,
+          "Highest_CTC_in_Lakhs": 18.0,
+          "Lowest_CTC_in_Lakhs": 5.0,
+          "Average_CTC_in_Lakhs": 10.1,
+          "Median_CTC_in_Lakhs": 10.8
+        }
+      ],
+      "BTech_Overall_Statistics": {
+        "No_of_Students_Participated": 278,
+        "No_of_Students_Placed": 235,
+        "Placement_Percentage": 84.6,
+        "Highest_CTC_in_Lakhs": 64.0,
+        "Lowest_CTC_in_Lakhs": 5.0,
+        "Average_CTC_in_Lakhs": 17.1,
+        "Median_CTC_in_Lakhs": 13.6
+      },
+      "DualDegree_Branches": [
+        {
+          "Branch": "(Dual Degree) Computer Science and Engineering",
+          "No_of_Students_Participated": 12,
+          "No_of_Students_Placed": 12,
+          "Placement_Percentage": 100.0,
+          "Highest_CTC_in_Lakhs": 52.6,
+          "Lowest_CTC_in_Lakhs": 18.0,
+          "Average_CTC_in_Lakhs": 34.1,
+          "Median_CTC_in_Lakhs": 22.0
+        },
+        {
+          "Branch": "(Dual Degree) Electrical Engineering",
+          "No_of_Students_Participated": 10,
+          "No_of_Students_Placed": 6,
+          "Placement_Percentage": 60.0,
+          "Highest_CTC_in_Lakhs": 26.0,
+          "Lowest_CTC_in_Lakhs": 12.0,
+          "Average_CTC_in_Lakhs": 14.7,
+          "Median_CTC_in_Lakhs": 13.0
+        },
+        {
+          "Branch": "(Dual Degree) Mechanical Engineering",
+          "No_of_Students_Participated": 38,
+          "No_of_Students_Placed": 25,
+          "Placement_Percentage": 65.8,
+          "Highest_CTC_in_Lakhs": 52.0,
+          "Lowest_CTC_in_Lakhs": 10.0,
+          "Average_CTC_in_Lakhs": 16.4,
+          "Median_CTC_in_Lakhs": 13.6
+        },
+        {
+          "Branch": "(Dual Degree) Civil Engineering",
+          "No_of_Students_Participated": 19,
+          "No_of_Students_Placed": 11,
+          "Placement_Percentage": 57.9,
+          "Highest_CTC_in_Lakhs": 42.0,
+          "Lowest_CTC_in_Lakhs": 8.0,
+          "Average_CTC_in_Lakhs": 19.0,
+          "Median_CTC_in_Lakhs": 12.0
+        },
+        {
+          "Branch": "(Dual Degree) Metallurgical Engineering",
+          "No_of_Students_Participated": 9,
+          "No_of_Students_Placed": 4,
+          "Placement_Percentage": 44.4,
+          "Highest_CTC_in_Lakhs": 17.1,
+          "Lowest_CTC_in_Lakhs": 10.0,
+          "Average_CTC_in_Lakhs": 14.1,
+          "Median_CTC_in_Lakhs": 13.0
+        }
+      ],
+      "DualDegree_Overall_Statistics": {
+        "No_of_Students_Participated": 88,
+        "No_of_Students_Placed": 58,
+        "Placement_Percentage": 66.0,
+        "Highest_CTC_in_Lakhs": 52.6,
+        "Lowest_CTC_in_Lakhs": 8.0,
+        "Average_CTC_in_Lakhs": 18.0,
+        "Median_CTC_in_Lakhs": 16.3
+      }
+    }
+  ],
+  "IIT Guwahati": [
+    {
+      "source": "https://iitg.ac.in/ccd/assets/docs/reports/Placement_reports_2023_24.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "departments": [
+        {
+          "department": "Design",
+          "discipline": "Design",
+          "students_registered": 40,
+          "students_placed": 22,
+          "placement_percentage": 55,
+          "max_salary_lpa_ctc": 95.00,
+          "min_salary_lpa_ctc": 8.16,
+          "median_salary_lpa_ctc": 30.75,
+          "average_salary_lpa_ctc": 36.17
+        },
+        {
+          "department": "Biosciences and Bioengineering",
+          "discipline": "Biotechnology",
+          "students_registered": 52,
+          "students_placed": 36,
+          "placement_percentage": 69,
+          "max_salary_lpa_ctc": 51.03,
+          "min_salary_lpa_ctc": 6.00,
+          "median_salary_lpa_ctc": 14.00,
+          "average_salary_lpa_ctc": 16.34
+        },
+        {
+          "department": "Chemical Engineering",
+          "discipline": "Chemical Engineering",
+          "students_registered": 86,
+          "students_placed": 68,
+          "placement_percentage": 79,
+          "max_salary_lpa_ctc": 75.97,
+          "min_salary_lpa_ctc": 6.00,
+          "median_salary_lpa_ctc": 17.00,
+          "average_salary_lpa_ctc": 22.49
+        },
+        {
+          "department": "Chemical Engineering",
+          "discipline": "Chemical Science and Technology",
+          "students_registered": 52,
+          "students_placed": 43,
+          "placement_percentage": 83,
+          "max_salary_lpa_ctc": 85.00,
+          "min_salary_lpa_ctc": 5.00,
+          "median_salary_lpa_ctc": 11.00,
+          "average_salary_lpa_ctc": 15.75
+        },
+        {
+          "department": "Civil Engineering",
+          "discipline": "Civil Engineering",
+          "students_registered": 93,
+          "students_placed": 61,
+          "placement_percentage": 66,
+          "max_salary_lpa_ctc": 65.70,
+          "min_salary_lpa_ctc": 5.34,
+          "median_salary_lpa_ctc": 14.43,
+          "average_salary_lpa_ctc": 18.87
+        },
+        {
+          "department": "Computer Science and Engineering",
+          "discipline": "Computer Science and Engineering",
+          "students_registered": 119,
+          "students_placed": 108,
+          "placement_percentage": 91,
+          "max_salary_lpa_ctc": 205.00,
+          "min_salary_lpa_ctc": 7.50,
+          "median_salary_lpa_ctc": 34.50,
+          "average_salary_lpa_ctc": 39.91
+        },
+        {
+          "department": "Electronics and Electrical Engineering",
+          "discipline": "Electronics and Communication Engineering",
+          "students_registered": 106,
+          "students_placed": 90,
+          "placement_percentage": 85,
+          "max_salary_lpa_ctc": 120.00,
+          "min_salary_lpa_ctc": 7.55,
+          "median_salary_lpa_ctc": 21.50,
+          "average_salary_lpa_ctc": 27.30
+        },
+        {
+          "department": "Electronics and Electrical Engineering",
+          "discipline": "Electronics and Electrical Engineering",
+          "students_registered": 64,
+          "students_placed": 54,
+          "placement_percentage": 84,
+          "max_salary_lpa_ctc": 75.97,
+          "min_salary_lpa_ctc": 5.40,
+          "median_salary_lpa_ctc": 22.76,
+          "average_salary_lpa_ctc": 25.93
+        },
+        {
+          "department": "Mathematics",
+          "discipline": "Mathematics and Computing",
+          "students_registered": 76,
+          "students_placed": 66,
+          "placement_percentage": 87,
+          "max_salary_lpa_ctc": 110.00,
+          "min_salary_lpa_ctc": 8.00,
+          "median_salary_lpa_ctc": 26.82,
+          "average_salary_lpa_ctc": 34.78
+        },
+        {
+          "department": "Mechanical Engineering",
+          "discipline": "Mechanical Engineering",
+          "students_registered": 114,
+          "students_placed": 91,
+          "placement_percentage": 80,
+          "max_salary_lpa_ctc": 74.74,
+          "min_salary_lpa_ctc": 7.00,
+          "median_salary_lpa_ctc": 15.00,
+          "average_salary_lpa_ctc": 18.19
+        },
+        {
+          "department": "Physics",
+          "discipline": "Engineering Physics",
+          "students_registered": 42,
+          "students_placed": 19,
+          "placement_percentage": 45,
+          "max_salary_lpa_ctc": 36.50,
+          "min_salary_lpa_ctc": 6.00,
+          "median_salary_lpa_ctc": 15.00,
+          "average_salary_lpa_ctc": 16.61
+        }
+      ]
+    }
+  ],
+  "IIT Bombay": [
+    {
+      "source": "https://campus.placements.iitb.ac.in/static/docs/placement_report_2023_24.pdf",
+      "year": "2023-2024"
+    },
+    {
+      "departments_centers": [
+        {
+          "department_center": "Aerospace Engineering",
+          "program": "B.Tech",
+          "participated": 72,
+          "placed": 48,
+          "percentage_placed": 66.67
+        },
+        {
+          "department_center": "Chemical Engineering",
+          "program": "B.Tech",
+          "participated": 128,
+          "placed": 105,
+          "percentage_placed": 82.03
+        },
+        {
+          "department_center": "Chemistry",
+          "program": "B.S",
+          "participated": 19,
+          "placed": 9,
+          "percentage_placed": 47.37
+        },
+        {
+          "department_center": "Civil Engineering",
+          "program": "B.Tech",
+          "participated": 97,
+          "placed": 80,
+          "percentage_placed": 82.47
+        },
+        {
+          "department_center": "Computer Science and Engineering",
+          "program": "B.Tech",
+          "participated": 162,
+          "placed": 147,
+          "percentage_placed": 90.74
+        },
+        {
+          "department_center": "Economics",
+          "program": "B.S",
+          "participated": 28,
+          "placed": 20,
+          "percentage_placed": 71.43
+        },
+        {
+          "department_center": "Electrical Engineering",
+          "program": "B.Tech",
+          "participated": 87,
+          "placed": 79,
+          "percentage_placed": 90.80
+        },
+        {
+          "department_center": "Energy Science and Engineering",
+          "program": "B.Tech",
+          "participated": 38,
+          "placed": 27,
+          "percentage_placed": 71.05
+        },
+        {
+          "department_center": "Engineering Physics",
+          "program": "B.Tech",
+          "participated": 41,
+          "placed": 28,
+          "percentage_placed": 68.29
+        },
+        {
+          "department_center": "Industrial Design Centre",
+          "program": "B.Des",
+          "participated": 17,
+          "placed": 9,
+          "percentage_placed": 52.94
+        },
+        {
+          "department_center": "Mechanical Engineering",
+          "program": "B.Tech",
+          "participated": 154,
+          "placed": 140,
+          "percentage_placed": 90.90
+        },
+        {
+          "department_center": "Metallurgical Engineering and Materials Science (MEMS)",
+          "program": "B.Tech",
+          "participated": 81,
+          "placed": 57,
+          "percentage_placed": 70.37
+        }
+      ]
+    }
+  ],
+  "IIT Indore": [
+    {
+      "source": "https://www.linkedin.com/posts/saish-kajrolkar-b4259a205_placement-brochure-2023-2024-activity-7121800336427614209-GSaG/",
+      "year": "2022-2023"
+    },
+    {
+      "departments": [
+        {
+          "department": "Computer Science (B.Tech)",
+          "average_ctc_lpa": 32.60,
+          "highest_ctc_lpa": 68
+        },
+        {
+          "department": "Electrical Engineering (B.Tech)",
+          "average_ctc_lpa": 25.70,
+          "highest_ctc_lpa": 45
+        },
+        {
+          "department": "Mechanical Engineering (B.Tech)",
+          "average_ctc_lpa": 21.88,
+          "highest_ctc_lpa": 45
+        },
+        {
+          "department": "Civil Engineering (B.Tech)",
+          "average_ctc_lpa": 19.27,
+          "highest_ctc_lpa": 45
+        },
+        {
+          "department": "Metallurgical and Materials Science (B.Tech)",
+          "average_ctc_lpa": 18.65,
+          "highest_ctc_lpa": 38
+        }
+      ]
+    }
+  ],
+  "IIT Bhilai": [
+    {
+      "source": "https://www.iitbhilai.ac.in/index.php?pid=PlacementReport2022_2023,https://www.reddit.com/r/Btechtards/comments/1dcf3xf/iit_bhilai_placement_stats_202324/",
+      "year": "2022-23, 2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "disciplines": [
+        {
+          "discipline": "Computer Science and Engineering",
+          "students_placed": 35,
+          "students_registered": 51,
+          "placement_percentage": 68.63,
+          "maximum_ctc_lpa": 42.11,
+          "minimum_ctc_lpa": 6,
+          "average_ctc_lpa": 15.16,
+          "median_ctc_lpa": 13
+        },
+        {
+          "discipline": "Data Science and Artificial Intelligence",
+          "students_placed": 15,
+          "students_registered": 20,
+          "placement_percentage": 75.00,
+          "maximum_ctc_lpa": 48.92,
+          "minimum_ctc_lpa": 9,
+          "average_ctc_lpa": 16.40,
+          "median_ctc_lpa": 12
+        },
+        {
+          "discipline": "Electrical Engineering",
+          "students_placed": 15,
+          "students_registered": 47,
+          "placement_percentage": 31.91,
+          "maximum_ctc_lpa": 20,
+          "minimum_ctc_lpa": 5,
+          "average_ctc_lpa": 11.19,
+          "median_ctc_lpa": 10
+        },
+        {
+          "discipline": "Mechanical Engineering",
+          "students_placed": 15,
+          "students_registered": 30,
+          "placement_percentage": 50.00,
+          "maximum_ctc_lpa": 18.1,
+          "minimum_ctc_lpa": 7,
+          "average_ctc_lpa": 9.64,
+          "median_ctc_lpa": 8.5
+        }
+      ],
+      "total_companies_participated": 86
+    }
+  ],
+  "IIT Dharwad": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1djc4df/iit_dharwad_placement_stats_202324/",
+      "year": "2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "placement_status": "ongoing",
+      "note": "Still placement season going on and exact data will get after the season only",
+      "programs": [
+        {
+          "program": "BTech",
+          "placement_percentage": {
+            "overall": 65.65,
+            "disciplines": {
+              "Computer Science and Engineering": 65.00,
+              "Electrical Engineering": 34.69,
+              "Mechanical Engineering": 30.95
+            }
+          },
+          "disciplines": [
+            {
+              "discipline": "Computer Science and Engineering",
+              "students_registered": 60,
+              "students_placed": 39,
+              "maximum_ctc_lpa": 52,
+              "minimum_ctc_lpa": 7.8,
+              "average_ctc_lpa": 17.41,
+              "median_ctc_lpa": 12
+            },
+            {
+              "discipline": "Electrical Engineering",
+              "students_registered": 49,
+              "students_placed": 16,
+              "maximum_ctc_lpa": 36,
+              "minimum_ctc_lpa": 6,
+              "average_ctc_lpa": 13.97,
+              "median_ctc_lpa": 9
+            },
+            {
+              "discipline": "Mechanical Engineering",
+              "students_registered": 42,
+              "students_placed": 13,
+              "maximum_ctc_lpa": 16.5,
+              "minimum_ctc_lpa": 7,
+              "average_ctc_lpa": 11.20,
+              "median_ctc_lpa": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "IIT Gandhinagar": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1cu36et/iit_gn_gandhinagar_placement_stats_202324/",
+      "year": "2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "note": "As per the decision taken in All IIT Directors meet, maximum and minimum salary cannot be shared",
+      "disciplines": [
+        {
+          "discipline": "Chemical Engineering",
+          "students_registered": 39,
+          "students_placed": 20,
+          "placement_percentage": 51.28,
+          "average_package_inr_lakhs": 15.29,
+          "median_package_inr_lakhs": 13.55
+        },
+        {
+          "discipline": "Electrical Engineering",
+          "students_registered": 43,
+          "students_placed": 19,
+          "placement_percentage": 44.19,
+          "average_package_inr_lakhs": 22.51,
+          "median_package_inr_lakhs": 22.23
+        },
+        {
+          "discipline": "Mechanical Engineering",
+          "students_registered": 42,
+          "students_placed": 25,
+          "placement_percentage": 59.52,
+          "average_package_inr_lakhs": 15.52,
+          "median_package_inr_lakhs": 14.00
+        },
+        {
+          "discipline": "Materials Engineering",
+          "students_registered": 17,
+          "students_placed": 5,
+          "placement_percentage": 29.41,
+          "average_package_inr_lakhs": 10.09,
+          "median_package_inr_lakhs": 11.00
+        },
+        {
+          "discipline": "Civil Engineering",
+          "students_registered": 29,
+          "students_placed": 10,
+          "placement_percentage": 34.48,
+          "average_package_inr_lakhs": 15.28,
+          "median_package_inr_lakhs": 13.43
+        },
+        {
+          "discipline": "Computer Science and Engineering",
+          "students_registered": 49,
+          "students_placed": 34,
+          "placement_percentage": 69.39,
+          "average_package_inr_lakhs": 22.73,
+          "median_package_inr_lakhs": 20.63
+        }
+      ]
+    }
+  ],
+  "IIT Goa": [
+    {
+      "source": "https://iitgoa.ac.in/~placement/Placements.html",
+      "year": "2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "overall_placement_percentage": 92.73,
+      "disciplines": [
+        {
+          "discipline": "Computer Science and Engineering",
+          "students_registered": 34,
+          "students_placed": 33,
+          "placement_percentage": 97.06,
+          "mean_ctc_lpa": 15.32,
+          "median_ctc_lpa": 13
+        },
+        {
+          "discipline": "Electrical Engineering",
+          "students_registered": 28,
+          "students_placed": 27,
+          "placement_percentage": 96.43,
+          "mean_ctc_lpa": 15.76,
+          "median_ctc_lpa": 16.25
+        },
+        {
+          "discipline": "Mechanical Engineering",
+          "students_registered": 23,
+          "students_placed": 17,
+          "placement_percentage": 73.91,
+          "mean_ctc_lpa": 12.8,
+          "median_ctc_lpa": 10
+        },
+        {
+          "discipline": "Mathematics and Computing",
+          "students_registered": 25,
+          "students_placed": 25,
+          "placement_percentage": 100.00,
+          "mean_ctc_lpa": 18.14,
+          "median_ctc_lpa": 15
+        }
+      ]
+    }
+  ],
+  "IIT Kharagpur": [
+    {
+      "source": "https://www.reddit.com/r/JEENEETards/comments/1e3torf/iit_kgp_placement_final_stats_2023_all_credits/",
+      "year": "2022-23"
+    },
+    {
+      "branches": [
+        {
+          "branch": "Architecture",
+          "registered": 37,
+          "placed": 16,
+          "percentage_placed": 43.34,
+          "min_lpa": 6.50,
+          "max_lpa": 54.71,
+          "avg_lpa": 15.07,
+          "median_lpa": 13.82
+        },
+        {
+          "branch": "Aerospace",
+          "registered": 55,
+          "placed": 33,
+          "percentage_placed": 60.00,
+          "min_lpa": 8.00,
+          "max_lpa": 51.00,
+          "avg_lpa": 16.90,
+          "median_lpa": 15.00
+        },
+        {
+          "branch": "Agricultural",
+          "registered": 57,
+          "placed": 21,
+          "percentage_placed": 36.84,
+          "min_lpa": 8.11,
+          "max_lpa": 34.00,
+          "avg_lpa": 18.77,
+          "median_lpa": 18.00
+        },
+        {
+          "branch": "Biotech",
+          "registered": 44,
+          "placed": 24,
+          "percentage_placed": 54.54,
+          "min_lpa": 5.50,
+          "max_lpa": 40.00,
+          "avg_lpa": 19.80,
+          "median_lpa": 16.50
+        },
+        {
+          "branch": "Civil",
+          "registered": 99,
+          "placed": 56,
+          "percentage_placed": 56.56,
+          "min_lpa": 6.00,
+          "max_lpa": 28.00,
+          "avg_lpa": 15.60,
+          "median_lpa": 15.50
+        },
+        {
+          "branch": "Chemical",
+          "registered": 103,
+          "placed": 77,
+          "percentage_placed": 74.75,
+          "min_lpa": 6.00,
+          "max_lpa": 52.00,
+          "avg_lpa": 19.80,
+          "median_lpa": 16.50
+        },
+        {
+          "branch": "Humanities(Eco)",
+          "registered": 53,
+          "placed": 34,
+          "percentage_placed": 64.15,
+          "min_lpa": 10.60,
+          "max_lpa": 41.00,
+          "avg_lpa": 21.60,
+          "median_lpa": 20.30
+        },
+        {
+          "branch": "CSE",
+          "registered": 145,
+          "placed": 134,
+          "percentage_placed": 92.41,
+          "min_lpa": 6.80,
+          "max_lpa": 170.00,
+          "avg_lpa": 42.50,
+          "median_lpa": 35.00
+        },
+        {
+          "branch": "EECE",
+          "registered": 143,
+          "placed": 133,
+          "percentage_placed": 93.00,
+          "min_lpa": 6.60,
+          "max_lpa": 138.60,
+          "avg_lpa": 29.20,
+          "median_lpa": 27.12
+        },
+        {
+          "branch": "ECE",
+          "registered": 177,
+          "placed": 139,
+          "percentage_placed": 78.83,
+          "min_lpa": 5.50,
+          "max_lpa": 63.00,
+          "avg_lpa": 23.64,
+          "median_lpa": 20.43
+        },
+        {
+          "branch": "Industrial",
+          "registered": 104,
+          "placed": 77,
+          "percentage_placed": 74.03,
+          "min_lpa": 8.00,
+          "max_lpa": 62.30,
+          "avg_lpa": 20.85,
+          "median_lpa": 18.50
+        },
+        {
+          "branch": "Mechanical",
+          "registered": 190,
+          "placed": 144,
+          "percentage_placed": 75.78,
+          "min_lpa": 6.84,
+          "max_lpa": 95.00,
+          "avg_lpa": 19.08,
+          "median_lpa": 16.00
+        },
+        {
+          "branch": "Mining",
+          "registered": 75,
+          "placed": 44,
+          "percentage_placed": 58.66,
+          "min_lpa": 8.00,
+          "max_lpa": 38.86,
+          "avg_lpa": 17.27,
+          "median_lpa": 16.00
+        },
+        {
+          "branch": "Metallurgy",
+          "registered": 77,
+          "placed": 54,
+          "percentage_placed": 70.12,
+          "min_lpa": 6.00,
+          "max_lpa": 46.99,
+          "avg_lpa": 18.37,
+          "median_lpa": 15.63
+        },
+        {
+          "branch": "Ocean",
+          "registered": 56,
+          "placed": 32,
+          "percentage_placed": 57.14,
+          "min_lpa": 7.40,
+          "max_lpa": 40.16,
+          "avg_lpa": 18.50,
+          "median_lpa": 16.00
+        },
+        {
+          "branch": "Chemistry",
+          "registered": 22,
+          "placed": 9,
+          "percentage_placed": 40.90,
+          "min_lpa": 7.20,
+          "max_lpa": 37.50,
+          "avg_lpa": 19.79,
+          "median_lpa": 14.00
+        },
+        {
+          "branch": "Geology&Geophysics",
+          "registered": 54,
+          "placed": 20,
+          "percentage_placed": 37.03,
+          "min_lpa": 7.20,
+          "max_lpa": 30.10,
+          "avg_lpa": 14.80,
+          "median_lpa": 14.00
+        },
+        {
+          "branch": "Mathematics",
+          "registered": 62,
+          "placed": 54,
+          "percentage_placed": 87.09,
+          "min_lpa": 7.20,
+          "max_lpa": 169.78,
+          "avg_lpa": 30.43,
+          "median_lpa": 25.82
+        },
+        {
+          "branch": "Physics",
+          "registered": 34,
+          "placed": 11,
+          "percentage_placed": 32.35,
+          "min_lpa": 9.00,
+          "max_lpa": 29.75,
+          "avg_lpa": 13.50,
+          "median_lpa": 12.00
+        }
+      ],
+      "total": {
+        "registered": 1587,
+        "placed": 1109,
+        "percentage_placed": 69.89
+      },
+      "institute_avg_lpa": 23.93,
+      "institute_median_lpa": 19.48
+    }
+  ],
+  "IIT Mandi": [
+    {
+      "source": "https://www.reddit.com/r/JEENEETards/comments/1cmvtt1/iitmd_current_placements/,https://students.iitmandi.ac.in/cnpcell/files/CnP%20Report%20till%2029-07-2024.pdf",
+      "year": "2023-24"
+    },
+    {
+      "branches": [
+        {
+          "branch": "Bachelor of Technology in Computer Science and Engineering",
+          "median_salary_lpa": 20.6,
+          "students_sitting_for_placement": 105,
+          "students_placed": 78
+        },
+        {
+          "branch": "Bachelor of Technology in Data Science and Engineering",
+          "median_salary_lpa": 15,
+          "students_sitting_for_placement": 42,
+          "students_placed": 29
+        },
+        {
+          "branch": "Bachelor of Technology in Electrical Engineering",
+          "median_salary_lpa": 14.75,
+          "students_sitting_for_placement": 66,
+          "students_placed": 26
+        },
+        {
+          "branch": "Bachelor of Technology in Mechanical Engineering",
+          "median_salary_lpa": 11.25,
+          "students_sitting_for_placement": 28,
+          "students_placed": 14
+        },
+        {
+          "branch": "Bachelor of Technology in Civil Engineering",
+          "median_salary_lpa": 11.065,
+          "students_sitting_for_placement": 24,
+          "students_placed": 5
+        },
+        {
+          "branch": "Bachelor of Technology in Engineering Physics",
+          "median_salary_lpa": 11.125,
+          "students_sitting_for_placement": 19,
+          "students_placed": 4
+        },
+        {
+          "branch": "Bachelor of Technology in Biotechnology",
+          "median_salary_lpa": 10,
+          "students_sitting_for_placement": 12,
+          "students_placed": 5
+        }
+      ],
+      "overall_median_ctc_lpa": 15.5
+    }
+  ],
+  "IIT Pallakkad": [
+    {
+      "source": "https://cdc.iitpkd.ac.in/sites/default/files/Placement%20Report%202022-23.pdf,https://www.reddit.com/r/Btechtards/comments/1de0stp/iit_palakkad_placement_stats_202324/",
+      "year": "2022-23, 2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "program": "B.Tech",
+      "note": "Campus hiring still in progress",
+      "branches": [
+        {
+          "branch": "Computer Science",
+          "highest_ctc_lpa": 41.6,
+          "lowest_ctc_lpa": 6,
+          "average_ctc_lpa": 18.54,
+          "median_ctc_lpa": 15,
+          "students_registered": 43,
+          "students_placed": 34,
+          "placement_percentage": 79.07
+        },
+        {
+          "branch": "Electrical Engineering",
+          "highest_ctc_lpa": 36.72,
+          "lowest_ctc_lpa": 6,
+          "average_ctc_lpa": 17.28,
+          "median_ctc_lpa": 15,
+          "students_registered": 36,
+          "students_placed": 23,
+          "placement_percentage": 63.89
+        },
+        {
+          "branch": "Mechanical Engineering",
+          "highest_ctc_lpa": 20,
+          "lowest_ctc_lpa": 6,
+          "average_ctc_lpa": 11.85,
+          "median_ctc_lpa": 10,
+          "students_registered": 30,
+          "students_placed": 23,
+          "placement_percentage": 76.67
+        },
+        {
+          "branch": "Civil Engineering",
+          "highest_ctc_lpa": 20,
+          "lowest_ctc_lpa": 6,
+          "average_ctc_lpa": 9.19,
+          "median_ctc_lpa": 6.28,
+          "students_registered": 19,
+          "students_placed": 11,
+          "placement_percentage": 57.89
+        }
+      ]
+    }
+  ],
+  "IIT Patna": [
+    {
+      "source": "https://ccdc.iitp.ac.in/downloads/TPC-Placement_and_Internship_Report-AY_2021-22.pdf",
+      "year": "2021-22"
+    },
+    {
+      "academic_year": "2023-24",
+      "program": "B.Tech",
+      "placement_data": {
+        "maximum_ctc": "The statistics of Minimum/highest etc. cannot be disclose as per the guidelines of AIPC",
+        "minimum_ctc": "NA",
+        "average_ctc": 13.86,
+        "branches": [
+          {
+            "branch": "CS",
+            "branch_full_form": "Computer Science",
+            "registered_students": 86,
+            "placed_students": 80
+          },
+          {
+            "branch": "EE",
+            "branch_full_form": "Electrical Engineering",
+            "registered_students": 81,
+            "placed_students": 65
+          },
+          {
+            "branch": "ME",
+            "branch_full_form": "Mechanical Engineering",
+            "registered_students": 72,
+            "placed_students": 40
+          },
+          {
+            "branch": "CE",
+            "branch_full_form": "Civil Engineering",
+            "registered_students": 47,
+            "placed_students": 22
+          },
+          {
+            "branch": "CB",
+            "branch_full_form": "Chemical Engineering",
+            "registered_students": 28,
+            "placed_students": 22
+          },
+          {
+            "branch": "MM",
+            "branch_full_form": "Metallurgical and Materials Engineering",
+            "registered_students": 28,
+            "placed_students": 18
+          },
+          {
+            "branch": "AI",
+            "branch_full_form": "Artificial Intelligence",
+            "registered_students": 21,
+            "placed_students": 15
+          }
+        ],
+        "placement_percentage": 77.92,
+        "note": "Current placement season is in progress. Exact Data can be shared by JULY-2024"
+      }
+    }
+  ],
+  "IIT Roorkee": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1d6b5hm/iit_roorkee_placement_stats_202324/",
+      "year": "2023-24"
+    },
+    {
+      "academic_year": "2024",
+      "program": "B.Tech",
+      "placement_data": {
+        "institute_average_ctc": "20LPA",
+        "branches": [
+          {
+            "branch": "CSE",
+            "branch_full_form": "Computer Science and Engineering",
+            "total_students": 120,
+            "placed_students": 115,
+            "placement_percentage": 95.83,
+            "average_ctc": "36LPA",
+            "highest_ctc": "150LPA",
+            "lowest_ctc": "12LPA"
+          },
+          {
+            "branch": "DSAI",
+            "branch_full_form": "Data Science and Artificial Intelligence",
+            "total_students": 40,
+            "placed_students": "NO DATA",
+            "placement_percentage": "NO DATA",
+            "average_ctc": "NO DATA",
+            "highest_ctc": "NO DATA",
+            "lowest_ctc": "NO DATA"
+          },
+          {
+            "branch": "MNC 5Y",
+            "branch_full_form": "Mathematics and Computing (5-Year Program)",
+            "total_students": 35,
+            "placed_students": 26,
+            "placement_percentage": 75,
+            "average_ctc": "30LPA",
+            "highest_ctc": "76LPA",
+            "lowest_ctc": "14LPA"
+          },
+          {
+            "branch": "ECE",
+            "branch_full_form": "Electronics and Communication Engineering",
+            "total_students": 120,
+            "placed_students": 103,
+            "placement_percentage": 85.83,
+            "average_ctc": "25LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "7LPA"
+          },
+          {
+            "branch": "EE",
+            "branch_full_form": "Electrical Engineering",
+            "total_students": 180,
+            "placed_students": 130,
+            "placement_percentage": 72.22,
+            "average_ctc": "24LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "7.5LPA"
+          },
+          {
+            "branch": "ME",
+            "branch_full_form": "Mechanical Engineering",
+            "total_students": 160,
+            "placed_students": 100,
+            "placement_percentage": 62.50,
+            "average_ctc": "19LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "6.6LPA"
+          },
+          {
+            "branch": "EPH",
+            "branch_full_form": "Engineering Physics",
+            "total_students": 50,
+            "placed_students": 12,
+            "placement_percentage": 24.00,
+            "average_ctc": "16LPA",
+            "highest_ctc": "35LPA",
+            "lowest_ctc": "10LPA"
+          },
+          {
+            "branch": "CHE",
+            "branch_full_form": "Chemical Engineering",
+            "total_students": 120,
+            "placed_students": 77,
+            "placement_percentage": 64.17,
+            "average_ctc": "16LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "8LPA"
+          },
+          {
+            "branch": "ECO 5Y",
+            "branch_full_form": "Economics (5-Year Program)",
+            "total_students": 35,
+            "placed_students": "NO DATA",
+            "placement_percentage": "NO DATA",
+            "average_ctc": "NO DATA",
+            "highest_ctc": "NO DATA",
+            "lowest_ctc": "NO DATA"
+          },
+          {
+            "branch": "PNI",
+            "branch_full_form": "Production and Industrial Engineering",
+            "total_students": 60,
+            "placed_students": 29,
+            "placement_percentage": 48.33,
+            "average_ctc": "15LPA",
+            "highest_ctc": "36LPA",
+            "lowest_ctc": "8LPA"
+          },
+          {
+            "branch": "CIVIL",
+            "branch_full_form": "Civil Engineering",
+            "total_students": 190,
+            "placed_students": 99,
+            "placement_percentage": 52.11,
+            "average_ctc": "11LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "5.5LPA"
+          },
+          {
+            "branch": "META",
+            "branch_full_form": "Metallurgical and Materials Engineering",
+            "total_students": 100,
+            "placed_students": 44,
+            "placement_percentage": 44.00,
+            "average_ctc": "14LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "8.5LPA"
+          },
+          {
+            "branch": "BSBE",
+            "branch_full_form": "Biosciences and Bioengineering",
+            "total_students": 40,
+            "placed_students": 12,
+            "placement_percentage": 30.00,
+            "average_ctc": "16LPA",
+            "highest_ctc": "51LPA",
+            "lowest_ctc": "9LPA"
+          },
+          {
+            "branch": "PHY 5Y",
+            "branch_full_form": "Physics (5-Year Program)",
+            "total_students": 25,
+            "placed_students": 3,
+            "placement_percentage": 12.00,
+            "average_ctc": "14LPA",
+            "highest_ctc": "19.5LPA",
+            "lowest_ctc": "7.5LPA"
+          },
+          {
+            "branch": "GPT 5Y",
+            "branch_full_form": "Geophysical Technology (5-Year Program)",
+            "total_students": 35,
+            "placed_students": 19,
+            "placement_percentage": 54.29,
+            "average_ctc": "13LPA",
+            "highest_ctc": "23.5LPA",
+            "lowest_ctc": "7.5LPA"
+          },
+          {
+            "branch": "GT 5Y",
+            "branch_full_form": "Geological Technology (5-Year Program)",
+            "total_students": 35,
+            "placed_students": 15,
+            "placement_percentage": 42.86,
+            "average_ctc": "13LPA",
+            "highest_ctc": "19.5LPA",
+            "lowest_ctc": "6.6LPA"
+          },
+          {
+            "branch": "CHEM 5Y",
+            "branch_full_form": "Chemical Sciences (5-Year Program)",
+            "total_students": 25,
+            "placed_students": 1,
+            "placement_percentage": 4.00,
+            "average_ctc": "20LPA",
+            "highest_ctc": "20LPA",
+            "lowest_ctc": "20LPA"
+          },
+          {
+            "branch": "ACHI 5Y",
+            "branch_full_form": "Architecture (5-Year Program)",
+            "total_students": 30,
+            "placed_students": 9,
+            "placement_percentage": 30.00,
+            "average_ctc": "10LPA",
+            "highest_ctc": "25LPA",
+            "lowest_ctc": "6.5LPA"
+          }
+        ],
+        "disclaimer": "The given stats are not 100% accurate. It is not verified by the institute. It is compiled from a 4th year "
+      }
+    }
+  ],
+  "IIT Ropar": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1dflms7/iit_ropar_placement_stats/",
+      "year": "2023-24"
+    },
+    {
+      "academic_year": "2023-24",
+      "program": "B.Tech",
+      "placement_data": {
+        "highest_ctc": "Confidential as per AIPC norms",
+        "lowest_ctc": "Confidential as per AIPC norms",
+        "average_ctc": "22.31 INR LPA",
+        "median_ctc": "17.50 INR LPA",
+        "branches": [
+          {
+            "branch": "Chemical Engineering",
+            "registered_students": 17,
+            "placed_students": 5
+          },
+          {
+            "branch": "Civil Engineering",
+            "registered_students": 26,
+            "placed_students": 15
+          },
+          {
+            "branch": "Computer Science and Engineering",
+            "registered_students": 86,
+            "placed_students": 71
+          },
+          {
+            "branch": "Electrical Engineering",
+            "registered_students": 66,
+            "placed_students": 50
+          },
+          {
+            "branch": "Mathematics and Computing",
+            "registered_students": 28,
+            "placed_students": 24
+          },
+          {
+            "branch": "Mechanical Engineering",
+            "registered_students": 57,
+            "placed_students": 37
+          },
+          {
+            "branch": "Metallurgical and Materials Engineering",
+            "registered_students": 18,
+            "placed_students": 8
+          }
+        ],
+        "total_registered_students": 298,
+        "total_placed_students": 217,
+        "placement_percentage": 72.82
+      }
+    }
+  ],
+  "IIT Madras": [
+    {
+      "source": "https://internship.iitm.ac.in/downloads/P&I_Report_22-23.pdf",
+      "year": "2022-23"
+    },
+    {
+      "placement_report_year": "2022-23",
+      "year_wise_placement_statistics": {
+        "summary_2022_23": {
+          "total_offers": 1612,
+          "companies_participated": "480+"
+        },
+        "offers_by_academic_year": [
+          {
+            "year": "2022-23",
+            "num_of_full_time_offers": 1612
+          }
+        ]
+      }
+        },
+        {
+          "department_name": "Civil Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 600000,
+            "maximum": 7650000,
+            "median": 1576000
+          }
+        },
+        {
+          "department_name": "Chemical Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 600000,
+            "maximum": 6600000,
+            "median": 1592000
+          }
+        },
+        {
+          "department_name": "Computer Science and Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 1020000,
+            "maximum": 13163530,
+            "median": 3036560
+          }
+        },
+        {
+          "department_name": "Electrical Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 900000,
+            "maximum": 4600000,
+            "median": 2128000
+          }
+        },
+        {
+          "department_name": "Engineering Physics",
+          "programs_included": "BTech and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 1270000,
+            "maximum": 3850000,
+            "median": 2205924
+          }
+        },
+        {
+          "department_name": "Mechanical Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 625000,
+            "maximum": 6626075,
+            "median": 1592000
+          } 
+        },
+        {
+          "department_name": "Metallurgy and Materials Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 800000,
+            "maximum": 6626075,
+            "median": 1530000
+          }
+        },
+        {
+          "department_name": "Ocean Engineering",
+          "programs_included": "BTech, DD and IDDD",
+          "ctc_summary_per_annum": {
+            "minimum": 750000,
+            "maximum": 4000000,
+            "median": 1700000
+          }
+        }
+]
+}
+    

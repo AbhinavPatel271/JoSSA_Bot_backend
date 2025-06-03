@@ -15,8 +15,21 @@ def find_colleges_in_rank_range(rank, category, gender, rank_type):
         collection = ORCR.ORCR
         rank = int(rank)
 
-        upper_bound = rank + 800
-        lower_bound = rank - 200
+        if category == "OPEN":
+          upper_bound = rank + 800
+          lower_bound = rank - 200
+        elif category == "OBC-NCL":
+          upper_bound = rank + 500
+          lower_bound = rank - 125
+        elif category == "SC":
+          upper_bound = rank + 200
+          lower_bound = rank - 50
+        elif category == "ST":
+          upper_bound = rank + 100
+          lower_bound = rank - 25
+        elif category == "EWS":
+          upper_bound = rank + 80
+          lower_bound = rank - 20
         query = {
             "$and": [
                 {"Closing Rank": {"$lte": upper_bound}},
