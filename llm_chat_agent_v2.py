@@ -58,7 +58,7 @@ def format_messages_param(user_question: str , chat_history: List[Dict[str, str]
 async def chat_agent(user_question: str, chat_history: list[dict] = None , prompt = None) -> dict:
     print(f"==> chat_agent called")
     try:
-        # print("USER QUERY :" , user_question)
+        print("USER QUERY :" , user_question)
         # user chat_history for assistant and user role messages
         messages = format_messages_param(user_question , chat_history , prompt)
         # print(f"MESSAGES : {messages}")
