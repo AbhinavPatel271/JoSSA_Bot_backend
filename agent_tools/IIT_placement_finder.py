@@ -28,8 +28,8 @@ def search_placements_for_iit(college_list, **kwargs):
                 else:
                     sources += ""
                     context_for_llm += f"{college}: \n No Data Available \n\n"
-        print("CONTEXT FOR LLM : " , context_for_llm)
-        print("LINKS : " , sources)
+        # print("CONTEXT FOR LLM : " , context_for_llm)
+        # print("LINKS : " , sources)
 
         return {
             "success": True,
@@ -56,7 +56,7 @@ search_placements_for_iit_schema = {
                         {
                             "type": "string",
                             "description": "A single IIT college name (base name only, without branch/department)",
-                            "enum": ["IIT BHU", "IIT Hyderabad", "IIT ISM Dhanbad", "IIT Jammu", "IIT Jodhpur",
+                            "enum": ["IIT BHU", "IIT Hyderabad", "IIT ISM Dhanbad", "IIT Dhanbad", "IIT Jammu", "IIT Jodhpur",
                                      "IIT Kanpur", "IIT Tirupati", "IIT Bhubaneshwar", "IIT Guwahati", "IIT Bombay",
                                      "IIT Indore", "IIT Bhilai", "IIT Dharwad", "IIT Gandhinagar", "IIT Goa",
                                      "IIT Kharagpur", "IIT Mandi", "IIT Pallakkad", "IIT Patna", "IIT Roorkee",

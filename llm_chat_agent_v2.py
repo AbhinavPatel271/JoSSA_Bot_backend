@@ -79,7 +79,7 @@ async def chat_agent(user_question: str, chat_history: list[dict] = None , promp
         
         search_sources = ""
         msg = response.choices[0].message
-        # print("RAW MESSAGE :" , msg)
+        print("RAW MESSAGE :" , msg)
         # print("tool_calls:", msg.tool_calls)
         output = None
 

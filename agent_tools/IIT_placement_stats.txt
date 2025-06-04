@@ -393,6 +393,122 @@
       "Min_CTC_in_Lakhs": 5.50
     }
   ],
+  "IIT Dhanbad": [
+    {
+      "source": "https://www.reddit.com/r/Btechtards/comments/1khlv4j/iit_ism_dhanbad_placement_stats_202425/",
+      "year": "2024-2025"
+    },
+    {
+      "Branch": "Chemical Engineering",
+      "No_of_Students_Registered": 40,
+      "No_of_Students_Placed": 21,
+      "Placement_Percentage": 52.50,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 18.25,
+      "Median_CTC_in_Lakhs": 14.10,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Civil Engineering",
+      "No_of_Students_Registered": 52,
+      "No_of_Students_Placed": 26,
+      "Placement_Percentage": 50.00,
+      "Max_CTC_in_Lakhs": 59.00,
+      "Average_CTC_in_Lakhs": 34.58,
+      "Median_CTC_in_Lakhs": 12.00,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Computer Science and Engineering",
+      "No_of_Students_Registered": 143,
+      "No_of_Students_Placed": 124,
+      "Placement_Percentage": 86.71,
+      "Max_CTC_in_Lakhs": 66.14,
+      "Average_CTC_in_Lakhs": 27.50,
+      "Median_CTC_in_Lakhs": 24.90,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Electrical Engineering",
+      "No_of_Students_Registered": 104,
+      "No_of_Students_Placed": 83,
+      "Placement_Percentage": 79.81,
+      "Max_CTC_in_Lakhs": 52.30,
+      "Average_CTC_in_Lakhs": 20.18,
+      "Median_CTC_in_Lakhs": 16.00,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Electronics and Communication Engineering",
+      "No_of_Students_Registered": 114,
+      "No_of_Students_Placed": 98,
+      "Placement_Percentage": 85.96,
+      "Max_CTC_in_Lakhs": 66.14,
+      "Average_CTC_in_Lakhs": 23.50,
+      "Median_CTC_in_Lakhs": 20.00,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Engineering Physics",
+      "No_of_Students_Registered": 17,
+      "No_of_Students_Placed": 9,
+      "Placement_Percentage": 52.94,
+      "Max_CTC_in_Lakhs": 36.00,
+      "Average_CTC_in_Lakhs": 18.58,
+      "Median_CTC_in_Lakhs": 13.66,
+      "Min_CTC_in_Lakhs": 6.50
+    },
+    {
+      "Branch": "Environmental Engineering",
+      "No_of_Students_Registered": 30,
+      "No_of_Students_Placed": 22,
+      "Placement_Percentage": 73.33,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 16.77,
+      "Median_CTC_in_Lakhs": 11.09,
+      "Min_CTC_in_Lakhs": 7.50
+    },
+    {
+      "Branch": "Mechanical Engineering",
+      "No_of_Students_Registered": 111,
+      "No_of_Students_Placed": 67,
+      "Placement_Percentage": 60.36,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 16.35,
+      "Median_CTC_in_Lakhs": 13.38,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Metallurgical Engineering",
+      "No_of_Students_Registered": 42,
+      "No_of_Students_Placed": 29,
+      "Placement_Percentage": 69.05,
+      "Max_CTC_in_Lakhs": 59.50,
+      "Average_CTC_in_Lakhs": 13.48,
+      "Median_CTC_in_Lakhs": 13.24,
+      "Min_CTC_in_Lakhs": 6.24
+    },
+    {
+      "Branch": "Mining Engineering",
+      "No_of_Students_Registered": 92,
+      "No_of_Students_Placed": 26,
+      "Placement_Percentage": 28.26,
+      "Max_CTC_in_Lakhs": 36.00,
+      "Average_CTC_in_Lakhs": 11.93,
+      "Median_CTC_in_Lakhs": 11.20,
+      "Min_CTC_in_Lakhs": 6.00
+    },
+    {
+      "Branch": "Petroleum Engineering",
+      "No_of_Students_Registered": 98,
+      "No_of_Students_Placed": 61,
+      "Placement_Percentage": 62.24,
+      "Max_CTC_in_Lakhs": 51.03,
+      "Average_CTC_in_Lakhs": 11.41,
+      "Median_CTC_in_Lakhs": 10.00,
+      "Min_CTC_in_Lakhs": 5.50
+    }
+  ],
   "IIT Jammu": [
     {
       "source": "https://iitjammu.ac.in/Facilities/cds/report/Placement%20Report%20-%202023-24.pdf,https://www.scribd.com/document/857687342/Placement-Report-2023-24-1",
