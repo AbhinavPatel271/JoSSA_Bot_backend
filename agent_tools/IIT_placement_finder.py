@@ -9,12 +9,13 @@ def search_placements_for_iit(college_list, **kwargs):
     try:
         sources = "\n"
         context_for_llm = ""
+        # print("hi")
         if type(college_list) is not list:
             college_list = [college_list]
 
         with open( file_path , 'r') as f:
             placement_stats = json.loads(f.read())
-
+        # print("hello")
         for college in college_list:
                 college_data = placement_stats.get(college)
                 if college != "IIT Delhi":

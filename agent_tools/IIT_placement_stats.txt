@@ -2003,52 +2003,6 @@
             "median": 1700000
           }
         }
-],
-“IIT Bhilai”: [
-	  {"source" : https://www.reddit.com/r/Btechtards/comments/1dcf3xf/iit_bhilai_placement_stats_202324/,
-	"year" : 2023 - 2024
-},
-    {
-      "Discipline": "CSE",
-      "Number_Placed": 35,
-      "Number_Registered": 51,
-      "Percentage_Placed": 68.63,
-      "Maximum_Salary_CTC_LPA": 42.11,
-      "Minimum_Salary_CTC_LPA": 6,
-      "Average_Salary_CTC_LPA": 15.16,
-      "Median_Salary_CTC_LPA": 13
-    },
-    {
-      "Discipline": "DSAI",
-      "Number_Placed": 15,
-      "Number_Registered": 20,
-      "Percentage_Placed": 75.00,
-      "Maximum_Salary_CTC_LPA": 48.92,
-      "Minimum_Salary_CTC_LPA": 9,
-      "Average_Salary_CTC_LPA": 16.40,
-      "Median_Salary_CTC_LPA": 12
-    },
-    {
-      "Discipline": "EE",
-      "Number_Placed": 15,
-      "Number_Registered": 47,
-      "Percentage_Placed": 31.91,
-      "Maximum_Salary_CTC_LPA": 20,
-      "Minimum_Salary_CTC_LPA": 5,
-      "Average_Salary_CTC_LPA": 11.19,
-      "Median_Salary_CTC_LPA": 10
-    },
-    {
-      "Discipline": "ME",
-      "Number_Placed": 15,
-      "Number_Registered": 30,
-      "Percentage_Placed": 50.00,
-      "Maximum_Salary_CTC_LPA": 18.1,
-      "Minimum_Salary_CTC_LPA": 7,
-      "Average_Salary_CTC_LPA": 9.64,
-      "Median_Salary_CTC_LPA": 8.5
-    }
-  ]
+]
 
 }
-    
