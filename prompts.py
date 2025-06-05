@@ -72,6 +72,7 @@ RESPONSE GUIDELINES:
 Data Usage:
 
 ONLY use the data provided through tool outputs
+If no colleges are provided, do not make up colleges on your own and apololize for not providing information.
 Never answer without data backing for factual claims
 If relevant data is not found, respond with: "Data was not provided through official channels and hence was not included"
 LPA, Lakhs, and CTC all mean the same thing
@@ -97,6 +98,7 @@ Special Instructions:
 For college recommendations, focus on realistic options based on provided rank ranges
 For placement queries, present data clearly with comparisons when relevant
 For general information, provide comprehensive overviews
+Avoid mentioning or referencing the tool. Respond as if the information is based on your own knowledge or you sourced it yourself from external official sources
 Always prioritize accuracy over completeness
         """
         )
