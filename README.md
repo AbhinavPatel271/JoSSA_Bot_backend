@@ -5,8 +5,9 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/> 
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white"/>
 </p>
@@ -17,7 +18,7 @@
 
 <ul>
   <li><b>Personalized Recommendations</b> — Students enter their rank and preferences to receive tailored college and branch suggestions.</li>
-  <li><b>Agentic Query Engine</b> — LLM-driven tool calling orchestrating document QA, placement queries, rank recommendations, college comparisons, and web search.</li>
+  <li><b>Agentic Query Engine</b> — LLM-driven tool calling orchestrating document QA, placement queries, rank-based recommendations, college comparisons, and web search.</li>
   <li><b>OR-CR Data Integration</b> — Official Opening and Closing Rank data imported into MongoDB for dynamic, real-time rank-based querying.</li>
   <li><b>RAG Pipeline</b> — FAISS-powered vector search with Groq-powered LLM inference for fast, low-latency responses.</li>
   <li><b>Placement Insights</b> — Placement data from 40+ institutes integrated alongside official JoSAA resources for accurate, dependable responses.</li>
