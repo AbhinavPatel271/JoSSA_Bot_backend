@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white"/>
 </p>
 
+<p>
+  <a href="https://github.com/AbhinavPatel271/Josh-AI">📂 GitHub Link of Frontend of Josh AI</a>
+</p>
+
 <hr/>
 
 <h2>🚀 Features</h2>
