@@ -90,7 +90,10 @@ Personalized Response
 
 <h2>🎥 Demo Video</h2>
   <p>
-    Watch the demo: <a href="[https://drive.google.com/file/d/1sq_5xNlyMPAcZA5TVHaSqJzHbvmxn3AS/view?usp=drive_link](https://drive.google.com/file/d/1KDo19JJ8g36VdaZGKkTqrzO8dWPJgbiS/view?usp=sharing)" target="_blank">Google Drive - Demo Video</a>
+    Watch the demo:
+<a href="https://drive.google.com/file/d/1KDo19JJ8g36VdaZGKkTqrzO8dWPJgbiS/view?usp=sharing">
+    Google Drive - Demo Video
+</a>
   </p>
 
 <h2>🙏 Acknowledgements</h2>
