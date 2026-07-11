@@ -13,7 +13,7 @@
 </p>
 
 <p>
-  <a href="https://github.com/AbhinavPatel271/Josh-AI">📂 GitHub Link of Frontend of Josh AI</a>
+  Frontend of Josh AI 📂: <a href="https://github.com/AbhinavPatel271/Josh-AI"> GitHub </a>
 </p>
 
 <hr/>
@@ -87,6 +87,11 @@ Personalized Response
 </table>
 
 <hr/>
+
+<h2>🎥 Demo Video</h2>
+  <p>
+    Watch the demo: <a href="https://drive.google.com/file/d/1sq_5xNlyMPAcZA5TVHaSqJzHbvmxn3AS/view?usp=drive_link" target="_blank">Google Drive - Demo Video</a>
+  </p>
 
 <h2>🙏 Acknowledgements</h2>
 
